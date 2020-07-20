@@ -1,0 +1,101 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Python Bangla Doc
+  version: 0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Pandas
+    output: web, pdf
+    folderitems:
+ 
+    - title: series
+      url: /pandas_series.html
+      output: web, pdf
+
+    - title: dataFrames
+      url: /pandas_dataFrames.html
+      output: web, pdf
+
+    - title: Dates and Times
+      url: /pandas_datesAndTime.html
+      output: web, pdf
+
+    - title: Group By
+      url: /pandas_GroupBy.html
+      output: web, pdf
+
+    - title: Input And Output
+      url: /pandas_InputAnd_Output.html
+      output: web, pdf
+
+    - title: merging, joining and concatenating
+      url: /pandas_mergingJoiningConcatenating.html
+      output: web, pdf
+
+    - title: Multi Index
+      url: /pandas_multiIndex.html
+      output: web, pdf
+
+    - title: Panels
+      url: /pandas_Panels.html
+      output: web, pdf
+
+    - title: work With Text-Data
+      url: /pandas_workWithTextData.html
+      output: web, pdf
+
+
+
+  - title: checksum or serialization
+    output: web, pdf
+    folderitems:
+
+    - title: Pickle পুঁথি
+      url: /pickel.html
+      output: web, pdf
+
+    - title: md5 extention
+      url: /md5.html
+      output: web, pdf
+
+  - title: Git
+    output: web, pdf
+    folderitems:
+
+    - title: Git এবং github পুঁথি
+      url: /git_cheetsheet.html
+      output: web, pdf
+
+    - title: Publish Static Site
+      url: /git_publish_staticSite.html
+      output: web, pdf
+
+
+  - title: Django
+    output: web, pdf
+    folderitems:
+
+    - title: Django পুঁথি
+      url: /django_cheetsheet.html
+      output: web, pdf
+
+    - title: Coming Soon
+      url: /commingSoon.html
+      output: web, pdf
+
+
