@@ -31,32 +31,32 @@ entries:
       url: /pandas_dataFrames.html
       output: web, pdf
 
-    - title: Dates and Times
-      url: /pandas_datesAndTime.html
-      output: web, pdf
-
-    - title: Group By
-      url: /pandas_GroupBy.html
-      output: web, pdf
-
-    - title: Input And Output
-      url: /pandas_InputAnd_Output.html
-      output: web, pdf
-
-    - title: merging, joining and concatenating
-      url: /pandas_mergingJoiningConcatenating.html
+    - title: work With Text-Data
+      url: /pandas_workWithTextData.html
       output: web, pdf
 
     - title: Multi Index
       url: /pandas_multiIndex.html
       output: web, pdf
 
+    - title: Group By
+      url: /pandas_GroupBy.html
+      output: web, pdf
+
+    - title: merging, joining and concatenating
+      url: /pandas_mergingJoiningConcatenating.html
+      output: web, pdf
+
+    - title: Dates and Times
+      url: /pandas_datesAndTime.html
+      output: web, pdf
+
     - title: Panels
       url: /pandas_Panels.html
       output: web, pdf
 
-    - title: work With Text-Data
-      url: /pandas_workWithTextData.html
+    - title: Input And Output
+      url: /pandas_InputAnd_Output.html
       output: web, pdf
 
 

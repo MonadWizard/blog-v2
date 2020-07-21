@@ -1,5 +1,5 @@
 ---
-title: A Django Cheet Sheet
+title: cheet sheet  Django
 keywords: Django Bangla Tutorials, bangla Django, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]

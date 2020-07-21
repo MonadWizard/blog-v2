@@ -1,5 +1,5 @@
 ---
-title: A sort blog to help free publish static site
+title: publish static site on github
 keywords: github  Bangla Tutorials, bangla Django, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]

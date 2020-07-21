@@ -1,5 +1,5 @@
 ---
-title: Series From Pandas Library
+title: Pandas Series
 keywords: Pandas Bangla Tutorials, bangla Pandas, Bangla Python, Data Preprocessing Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]

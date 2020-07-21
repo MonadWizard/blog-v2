@@ -1,5 +1,5 @@
 ---
-title: A sort blog to help free publish static site
+title: pickel
 keywords: pickel  Bangla Tutorials, checksum bangla, serialization bangla, pickel , Bangla pickel, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
