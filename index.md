@@ -7,6 +7,6 @@ permalink: index.html
 summary: The wise monkey says that you can be the better version of you.
 ---
 
-# All Contains are available on navigation panel...
+# আমার এই blog 
 
-# Beta edition .........
+# <font color="green"> Python এর data pre-processing এর একটি প্রয়োজনীয় library PANDAS এর সকল function বাংলাই আলোচনা করা হয়েছে  </font>

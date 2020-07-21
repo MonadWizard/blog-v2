@@ -952,6 +952,7 @@ print(salaryy)
 
 
  Salary
+
 | |   |
 | --------- | ----------- |
  | 72000.0|44.0 |
@@ -994,6 +995,7 @@ print(salaryy.get(key = 200 , default = "This is not a salary"),"\n")
 
 
  Salary
+
 | |   |
 | --------- | ----------- |
  | 72000.0|44.0 |
@@ -1014,10 +1016,13 @@ Name: Age, dtype: float64
 
 
  Salary
+
 | |   |
 | --------- | ----------- |
  | 61000.0|38.0 |
  | 52000.0|NaN |
+
+ 
 Name: Age, dtype: float64 
 
 This is not a salary 
