@@ -7,6 +7,11 @@ permalink: index.html
 summary: The wise monkey says that you can be the better version of you.
 ---
 
-# আমার এই blog 
+# আমার এই blog সকল বাঙ্গালী programmer দের জন্য উৎসর্গ করা।   
 
-# <font color="green"> Python এর data pre-processing এর একটি প্রয়োজনীয় library PANDAS এর সকল function বাংলাই আলোচনা করা হয়েছে  </font>
+অনুগ্রহপূর্বক navigation side এ প্রবেশ করুন ।
+
+আপনাদের প্রয়োজনীয় Topic থেকে Bangla post পড়লে আমার প্রচেষ্টা সফল হবে। 
+
+
+
