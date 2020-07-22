@@ -11,7 +11,7 @@ folder: mydoc
 
 
 
-###  DataFrame 
+#  DataFrame 
 
 
 [প্রয়োজনীয় data-set যা এই post এ ব্যবহার করা হয়েছে DOWNLOAD ](https://github.com/dust-nk-org/pandasDataSet/archive/master.zip)
@@ -31,7 +31,7 @@ Data হল তথ্যের স্বতন্ত্র টুকরো য�
 আমরা <font color="green"> Churn_Modelling.csv </font> data-set ব্যবহার করব। 
 আমরা data-frame এর columns এবং row এর details pandas এর দ্বারা দেখতে পারি। যা আমাদের prediction এ অনেক কাজ এ লাগতে পারে। big-data এর visualization অনেক সময় সাপেক্ষ আবার অনেক সময় সম্ভব হয় না। তাই আমরা Pandas এর কিছু function ব্যবহার করে সমস্ত data-frame এর সম্পর্কে জানতে পারি। এখন এই সব Shared Method এবং attributes এর সম্পর্কে দেখি। 
 
-###  Shared Methods and Attributes 
+##  Shared Methods and Attributes 
 
 <font color="green"> dataframe.columns </font> ব্যবহার করে আমরা সকল columns এর নাম দেখতে পারি। 
 
@@ -468,7 +468,7 @@ print(cm)
 ---- 
 
 
-###  Broadcasting Operations : 
+##  Broadcasting Operations : 
 
 Data-preprocessing এ অনেক সময় column এর সমস্ত value একটি specific মান দ্বারা "operation(+-*/)" calculation করতে হয়। তাই কোন column এর সব value update করতে আমরা List ব্যবহার করতে পারি। <font color="green"> dataframe[column_name].operation(value
 ) </font> অথবা  <font color="green"> dataframe[column_name]+-*/ value  </font> ব্যবহার করতে পারি।
@@ -525,7 +525,7 @@ Name: CustomerId, dtype: int64
 ----- 
 
 
-###  .value_counts() 
+##  .value_counts() 
 একটি column এ কত রকমের এবং কতগুলো value আছে তা <font color="green"> dataframe[column_name].value_counts() </font> এর দ্বারা জানতে পারা যায়। 
 
 ```python
@@ -650,7 +650,7 @@ print(salary["Salary"].fillna(value = "Here we found null value", inplace = Fals
 
 
 
-###  .astype() method 
+##  .astype() method 
 
 আমরা যদি data-set এর কোন column এর data এর data-type পরিবর্তন করতে চাই তা হইলে <font color="green"> dataFrame["columnName"].astype("int") </font> দ্বারা data type পরিবর্তন করতে পারি। বি:দ্র: column টার data অবশ্যয় numerical data হইতে হবে। 
 
@@ -670,7 +670,7 @@ print(salary["new"])
 
 
 
-###   .numique() method 
+##   .numique() method 
 
 <font color="green"> dataFrame["column"].nunique() </font>
 দ্বারা কোন data-set এর specific column এ total কতরকম এর data আছে টা জানা যায়। 
@@ -705,7 +705,7 @@ print(salary["Purchased"].nunique())
 
 
 
-###   reduse memory space by change .astype() 
+##   reduse memory space by change .astype() 
 
 আমরা .astype() এর সঙ্ঘে আগেই পরিচিত হইছি। .astype() ব্যবহার করে memory space কমানো যায়। .info() এর সঙ্ঘে আমরা অনেক আগে থেকে পরিচিত। এখন দেখব .astype() ব্যবহার করে data type পরিবর্তন করাতে .info() তে memory space অনেকটা কমেছে । 
 
@@ -767,7 +767,7 @@ print(salary.info())
 
 
 
-###  .sort_value()  method 
+##  .sort_value()  method 
 
 আমরা যদি কোন columns এর referance এ সম্পূর্ণ data-frame কে sort করতে চাই বা যদি নির্দিষ্ট কোন columns এর data sort করে use করতে চাই তা হলে <font color="green"> data-frame.sort_values("columnName") </font> ব্যবহার করা যায়। defaultly <font color="pink">ascending = True</font>থাকে। real data-frame এর কোন পরিবর্তন হয় না টাই এই method টাই inplace parameter ব্যবহার করতে হয়। 
 
@@ -806,7 +806,7 @@ print(salary.sort_values("Country", na_position = "first"))  # or na_position = 
 ------------
 
 
-###   .to_dateTime method: 
+##   .to_dateTime method: 
 
 pandas library দ্বারা dataframe কে date-time অনুসারে formating করা যায়। আমরা চাইলে যে কোন columns এর data এর সঙ্গে date-time formate করতে পারি। code a comment দ্বারা script এর workflow দাওয়া হয়েছে। 
 আমরা pandas এর default paramenter <font color="green"> parse_dates </font> ব্যবহার করে ও same কাজ করতে পারি। 
@@ -842,7 +842,7 @@ print(df)
 ```
 
 
-###  reduse memory using .astype() 
+##  reduse memory using .astype() 
 
 আমরা <font color="green"> .astype() </font> method ব্যবহার করে memory size কমায়তে পারি। আমরা data-frame/ series যে কোন columns এর memory size reduse করতে astype() ব্যবহার করতে পারি । আমরা column define করে <font color="green"> .astype(similar_pandas_dtype) </font> ব্যবহার করব। pandas নিজে থেকেই memory reduse করে দিবা।
 
@@ -893,7 +893,7 @@ print(df.info())    # now memory usage: 41.2+ KB
 
 
 
-###   filter A DataFrame Based On a Condition 
+##   filter A DataFrame Based On a Condition 
 
 pandas এ dataframe['columns'] =condition= value  দ্বারা condition check করা যায়। 
 
@@ -954,7 +954,7 @@ print(df[(df["Gender"] == "Male") & (df["Senior Management"])])
 
 
 
-###   .isin()  Method: 
+##   .isin()  Method: 
 
 single condition এ multiple value compare এ <font color="green"> .isin() </font> method ব্যবহার করা হয়। যদি আমার একাধিক ভালু একটা same condition এ chack করতে বা check করে new data-frame বানাতে চাই তা হইলে <font color="green"> data-frame["columnName].isin("[value1", "value2", "value3"]) </font> দ্বারা data-frame এর specific-column এ [value] গুলো আছে কি না তা boolean type দ্বারা জানা যায় আর চাইলে new data-frame এ convert করা যায়। 
 
@@ -1000,7 +1000,7 @@ print(df[teamm])
 
 
 
-###   .isnull()  and   .notnull()  methods : 
+##   .isnull()  and   .notnull()  methods : 
 
 isnull এবং notnull ব্যবহার করা হয় nullবা Nan value filter ও pre-process এর জন্য। 
 
@@ -1057,7 +1057,7 @@ print(not_null_dfram)
 
 
 
-###   .between() method : 
+##   .between() method : 
 
 আমরা যদি নির্দিষ্ট কোন column এর নিদিষ্ট range এর মধ্যকার data নিয়ে কোন data-frame বানাইতে চাই টা হইলে .between() method ব্যবহার করা যায়। .between() method এর ২ টা parameter আছে। start আর end .between function এ (start,end) value define করে দিতে হয়। <font color="green"> dataframe["columnName"].between(start,end) </font>
 
@@ -1096,7 +1096,7 @@ print(df_sal)
 
 
 
-###   .sort_values() method : 
+##   .sort_values() method : 
 
 আমরা data-frame এর যে কোন column এর value ascending order বা descending order এ sort করতে পারি। 
 
@@ -1191,7 +1191,7 @@ df[~df["First Name"].duplicated(keep = False)]      # ~ make reverse boolen data
 
 
 
-###   .drop_duplicates() method : 
+##   .drop_duplicates() method : 
 
 সাধারণত যদি একাধিক row এর সব value duplicate হয় তবে dataFrame.drop_duplicates() ব্যবহার করে Duplicate row টা বাদ দাওয়া যায়। 
 
@@ -1241,7 +1241,7 @@ print(df.head(5))
 
 
 
-###  .unique() and nunique() method :
+##  .unique() and nunique() method :
 
 আমরা যদি data-frame এর কোন column এ কতগুলো unique value আছে তা জানতে চাই তা হইলে <font color="green"> dataframe["column"].unique() </font> ব্যবহার করে দেখতে পাই। 
 
@@ -1284,7 +1284,7 @@ df["Team"].nunique(dropna = False)
 
 
 
-###    .set_index() and .reset_index() methods  
+##    .set_index() and .reset_index() methods  
 
 
 আমরা index_col= 'col_name' এর সঙ্ঘে আগে থেকেই পরিচিত। index_col parameter data-set read এর সময়ই ব্যবহার করা হয় এবং এই parameter দ্বারা আমরা data-set read এর সময় index-column select করে দিতে পারি। 
@@ -1346,7 +1346,7 @@ print(bond.head(3))
 
 
 
-### .loc[] &  .iloc[] methods: 
+## .loc[] &  .iloc[] methods: 
 
 *.loc[] function label নিয়ে কাজ করে এবং .iloc[] কাজ করে index নিয়ে ।  এছাড়া ২ function একই কাজ করে।*
 
@@ -1420,7 +1420,7 @@ print(bond.iloc[[0,3]])
 
 
 
-###  .ix[] Method
+##  .ix[] Method
 
 *.ix[] মূলত .loc[] & .iloc[] এর combination এ তৈরি।*
 
@@ -1474,7 +1474,7 @@ bond.ix[["Sacred Bond", "Spectre" ]]   # make Nan row with index Sacred Bond
 
 
 
-### Second Argument to .loc[], .iloc[], and .ix[] Methods
+## Second Argument to .loc[], .iloc[], and .ix[] Methods
 
 যদি উপরের .loc[] এবং .iloc[] এবং .ix[] method বুঝে থাকেন টা হইলে example দেখেই বুজতে পারবেন । আমরা উপরের single কাজ গুলো একত্রে করেছি । 
 
@@ -1521,7 +1521,7 @@ bond.iloc[1, [1 ,6]]
 
 
 
-### Set New Values for a Specific Cell or Row
+## Set New Values for a Specific Cell or Row
 
 আমরা যদি Data-Frame এর specific কোন কোন data change করতে চাই, তা হইলে just python list এর basic consept আর pandas এর .loc[] বা .iloc[] কিংবা .ix[] ব্যবহার করলে ই হবে। 
 
@@ -1573,7 +1573,7 @@ print(bond.loc["Dr. No"])
 
 
 
-### Set Multiple Values in DataFrame
+## Set Multiple Values in DataFrame
 
 আমরা data-frame থেকে multiple ভালু এর Series বা new_dataframe pick করে তাতে specific value change করতে পারি। এর ফলে একটা change এর দ্বারা অনেক row তে change আনা যায়। 
 
@@ -1621,7 +1621,7 @@ bond[bond["Actor"] == "Roger Moore"]
 
 
 
-### Rename Index Labels or Columns in a DataFrame
+## Rename Index Labels or Columns in a DataFrame
 
 আমরা <font color="green">  data-frame.rename(columns= {"old_name" : "new_name "}) </font> ব্যবহার করে column অথবা <font color="green">  data-frame.rename(index= {"old_name" : "new_name "}) </font> ব্যবহার করে dataframe এর যে কোন row বা index এর নাম change করতে পারি। 
 
@@ -1674,7 +1674,7 @@ print(bond.head(3))
 
 
 
-### Delete Rows or Columns in a DataFrame 
+## Delete Rows or Columns in a DataFrame 
 
 আমরা <font color="green"> data-frame.drop(index = "Row_name",inplace = True) </font> ব্যবহার করে row এবং <font color="green">  data-frame.drop(labels = "column_name",inplace = True) </font> ব্যবহার করে column কে Data-frame থেকে remove করতে পারি। 
 
@@ -1731,7 +1731,7 @@ print(bond.head(3))
 
 
 
-### Create Random Sample
+## Create Random Sample
 
 বেশির ভাগ সময় data-set এ বিপুল পরিমাণ sample data থাকে বা প্রয়োজন এর অতিরিক্ত label থাকে । 
 
@@ -1783,7 +1783,7 @@ bond.sample(n = 3, axis = "columns") # give 3 random columns from bond
 
 
 
-### The .nsmallest() and .nlargest() methods
+## The .nsmallest() and .nlargest() methods
 
 আমরা data-frame থেকে index অনুযায়ী যে কোন পরিমাণ এর সবথেকে বড় data  <font color="green"> data-frame.nlargest() </font>  এবং সবথেকে ছোট data <font color="green"> data-frame.nsmallest() </font> function ব্যবহার করে নিতে পারি। 
 
@@ -1835,7 +1835,7 @@ bond["Year"].nsmallest(2)
 
 
 
-### Filtering with the where Method
+## Filtering with the where Method
 
 data-frame থেকে data filter এর জন্য যদি নির্দিষ্ট কোন condition অনুযায়ী data pick করতে হইলে <font color="green"> data-frame.where(data-frame["column-name"] ~condition~ n ) </font> ব্যবহার করা যায়। 
 
@@ -1886,7 +1886,7 @@ b3 = bond.where(bond["Year"] > 2000)
 
 
 
-### The .query() method 
+## The .query() method 
 
 
 * .query() method only string argument এর জন্য কাজ করে। 
@@ -1947,7 +1947,7 @@ print(add)
 
 
 
-### .apply() Method on Single Columns
+## .apply() Method on Single Columns
 
 
 data-frame এর কোন single column নিয়ে কাজ করা মানে data-frame থেকে একটা Series নিয়ে কাজ করা। 
@@ -2006,7 +2006,7 @@ print(bond[col])
 
 
 
-### .apply() Method with Row Values
+## .apply() Method with Row Values
 
 
 আমরা যদি data-frame থেকে classification বাহির করতে চাই। বা specific row দ্বারা আলাদা data-frame বাহির করতে চাই, তা হইলে ও <font color="green"> data-frame.apply(operation, axis) </font> ব্যবহার করা হয়। 
@@ -2061,7 +2061,7 @@ bond.apply(good_movie, axis = "columns")
 
 
 
-### .copy() Method 
+## .copy() Method 
 
 আমরা data-frame নিয়ে অনেক operation করে থাকি। আবার data-frame এ ও অনেক পরিবর্তন করে থাকি। যদি কখনও আমরা data-frame এর কোন পরিবর্তন আনি কিন্তু তা যেন main data-frame এ কোন পরিবর্তন না করে এমন কিছু করতে চাই, তা হইলে আমরা <font color="green"> .copy()  </font> method ব্যবহার করে data-frame এর যে কোন part অন্য variable এ copy করে নিয়ে তা ব্যবহার করতে পারি। 
 

@@ -5,7 +5,7 @@ topnav:
   items:
     # - title: GitHub
     #   external_url: https://github.com/MonadWizard
-    - title: News
+    - title: Notice
       url: /news
 
 #Topnav dropdowns
@@ -15,9 +15,9 @@ topnav_dropdowns:
     - title: practice
       folderitems:
         - title: Python Q/A
-          external_url: https://monadwizard.github.io/pyquiz.github.io/
-        - title: Comming Soon
-          url: /p1_landing_page.html
+          url: /pyQ1.html
+
+
     - title: Contract
       folderitems:
         - title: GitHub
@@ -31,13 +31,13 @@ topnav_dropdowns:
         - title: Hacker Rank
           external_url: https://www.hackerrank.com/monad_wizard_r    
 
-    - title: Products
+    - title: Others
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
-        - title: Product 2
+        - title: My Resume
+          external_url: https://resume.monadwizard.live
+
+        - title: etc news
           url: /p2_landing_page.html
+
 
   
