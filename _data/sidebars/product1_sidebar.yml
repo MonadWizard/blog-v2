@@ -3,36 +3,32 @@
 
 entries:
 - title: Sidebar
-  product: Product1
-  version: 1.0
+  product: 
+  version: 
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
 
   - title: Python MCQ
     output: web, pdf
     folderitems:
-    - title: Py MCQ 1-20
+    - title: Py MCQ 1-15
       url: /pyQ1.html
       output: web
 
-    - title: Py MCQ 21-40
+    - title: Py MCQ 16-30
       url: /pyQ2.html
       output: web, pdf
 
-    - title: Py MCQ 41-60
+    - title: Py MCQ 31-45
       url: /pyQ3.html
+      output: web, pdf
+
+    - title: Py MCQ 46-60
+      url: /pyQ4.html
+      output: web, pdf
+
+    - title: Comming Soon
+      url: /Comming.html
       output: web, pdf
 
 

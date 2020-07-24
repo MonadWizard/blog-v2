@@ -1,5 +1,5 @@
 ---
-title: python MCQ 21-40
+title: python MCQ 16-30
 keywords: Py MCQ
 sidebar: product1_sidebar
 toc: false
@@ -7,5 +7,948 @@ permalink: pyQ2.html
 folder: product1
 ---
 
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<h1> Comming Soon </h1>
+
+</head>
+    
+  
+  
+  <div class="container">
+
+
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 16.  Please complete the script so that it prints out the value of key b .
+                  </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          d = {"a": 1, "b": 2}
+
+                          Expected output: 
+                          2 
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                      Answer 16.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse16" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    print(d["b"])
+                    
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 17.  Calculate the sum of the values of keys a  and b .</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          d = {"a": 1, "b": 2, "c": 3}
+
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                      Answer 17.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse17" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    print(d["b"] + d["a"])
+
+                   
+                    <p>It's as easy as that. However, if you want to do the sum of all dictionary values you need to take another approach instead of accessing all values one by one. 
+                      We're going through that approach later on in another exercise.</p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 18.  What’ll be happened  to execute, if face error try to solve. </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            d = {"Name": "John", "Surname": "Smith"}
+                            print(d["Smith"])
+
+                            
+
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                      Answer 18.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse18" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                      There is no key Smith  in the dictionary. Smith  is a value. You want to use Surname  if you want to access Smith :
+
+                      <h3> print(d["Surname"]) </h3> 
+
+                      <p>  
+                          A KeyError always means Python could not find a key with the name shown next to KeyError (e.g. Smith ).
+                      </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 19. Add a new pair of key (e.g. c ) and value (e.g. 3 ) to the dictionary and print out the new dictionary. </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            d = {"a": 1, "b": 2}
+
+                            Expected output: 
+                              {'a': 1, 'c': 3, 'b': 2} 
+
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                      Answer 19.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse19" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    d = {"a": 1, "b": 2}
+                    d["c"] = 3
+                    print(d)
+
+                    Explanation: 
+                    Adding pairs of keys and values is straightforward as you can see. Note though that you cannot fix the order of the dictionary items. Dictionaries are unordered collections of items.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 20.  Calculate the sum of all dictionary values.
+                   
+                    </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          d = {"a": 1, "b": 2, "c": 3}
+
+                          Expected output: 
+                           6 
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                      Answer 20.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse20" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    d = {"a": 1, "b": 2, "c": 3}
+                    print(sum(d.values()))
+                    
+                    Explanation: 
+                    d.values()  returns a list-like dict_values  object while the sum  function calculates the sum of the dict_values  items.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 21.  Question: Filter the dictionary by removing all items with a value of greater than 1.</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          d = {"a": 1, "b": 2, "c": 3}
+
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                      Answer 21.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse21" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    d = {"a": 1, "b": 2, "c": 3}
+                    d = dict((key, value) for key, value in d.items() if value <= 1)
+                    print(d)
+
+                    Explanation: 
+                    Here we're using a dictionary comprehension. The comprehension is the expression inside dict() . The comprehension iterates through the existing dictionary items and if an item is less or equal to 1,the item is added to a new dict. This new dict is assigned to the existing variable d  so we end up with a filtered dictionary in d.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 22.  Create a dictionary of keys a, b, c where each key has as value a list from 1 to 10, 11 to 20, and 21 to 30 respectively. Then print out the dictionary in a nice format.</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         hints:
+                         {'a':[1,2,3,4,5,6,7,8,9,10]
+                          'b':[11,12,13,14,15,16,17,18,19,20]
+                          'c':[21,22,23,24,25,26,27,28,29,30]
+
+                         }
+                            
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                      Answer 22.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse22" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    from pprint import pprint
+                    d = dict(a = list(range(1, 11)), b = list(range(11, 21)), c = list(range(21, 31)))
+                    print(d)
+
+
+                    Explanation: 
+                    We're using ranges here to construct the lists. We're also using the built-in Python pprint  module which is used to print out well formatted views of datatypes in Python.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 23. Access the third value of key b  from the dictionary.
+                    
+                  </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          from pprint import pprint
+                          d = dict(a = list(range(1, 11)), b = list(range(11, 21)), c = list(range(21, 31)))
+                         
+                          Expected output: 
+                          13  
+                        
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                      Answer 23.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse23" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    from pprint import pprint
+                    d = dict(a = list(range(1, 11)), b = list(range(11, 21)), c = list(range(21, 31))) 
+                    print(d['b'][2])
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 24.  Please complete the script so that it prints out the expected output.</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          d = dict(a = list(range(1, 11)), b = list(range(11, 21)), c = list(range(21, 31)))
+
+
+                          Expected output: 
+                            b has value [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+                            c has value [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+                            a has value [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                      Answer 24.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse24" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    d = dict(a = list(range(1, 11)), b = list(range(11, 21)), c = list(range(21, 31)))
+
+                    for key, value in d.items():
+                        print(key, "has value", value)
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 25. Make a script that prints out letters of English alphabet from a to z, one letter per line in the terminal.</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            Expected output: 
+                            a
+                            b 
+                            c 
+                            d 
+                            e 
+                            f 
+                            g 
+                            h 
+                            i 
+                            j 
+                            k 
+                            l 
+                            m 
+                            n 
+                            o 
+                            p 
+                            q 
+                            r
+                            s
+                            t
+                            u
+                            v
+                            w
+                            x
+                            y
+                            z 
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                      Answer 25.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse25" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    import string
+
+                    for letter in string.ascii_lowercase:
+                        print(letter)
+                  
+                  
+                    Explanation: 
+                    string  is a built-in module and string.ascii_lowercase  returns a string object containing all 26 letters of English alphabet. Then we simply iterate through that string and print out the string items.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 26. Make a script that prints out numbers from 1 to 10</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                          Expected output:
+
+                          1
+                          2
+                          3
+                          4
+                          5
+                          6
+                          7
+                          8
+                          9
+                          10
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+                      Answer 26.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse26" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                    for i in range(1,11):
+                        print(i)
+
+
+                Explanation:                 
+                A for  loop is used to repeat an action (i.e. print ) until the iterating sequence (i.e. range ) is consumed. In our case it would print all items of the range one by one.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 27.  Create a function that calculates acceleration given initial velocity v1, final velocity v2, start time t1, and end time t2. </span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>                       
+                            The formula for acceleration is:
+                                  a = (v2-v1)/(t2-t1)
+                                   
+                          To test your solution, call the function by inputting values 0, 10, 0, 20 for v1, v2, t1, and t2 respectively, and you should get the expected output.</span>
+
+                          Expected output:
+                          0.5
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse27 aria-expanded="false" aria-controls="collapse27">
+                      Answer 27.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse27" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+
+
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>                       
+                            Answer (Python 3): 
+
+                            def acceleration(v1, v2, t1, t2):
+                                a = (v2 - v1) / (t2 - t1)
+                                return a
+        
+                            print(acceleration(0,10,0,20))
+                            Explanation (Python 3): 
+        
+                            The first three lines are where we create the function. A function definition is like a like a blueprint. Then in the last line we're printing out the function output. The output is whatever is returned by the return  statement.
+        
+                            Answer (Python 2): 
+        
+                            def acceleration(v1, v2, t1, t2):
+                                a = float(v2 - v1) / float(t2 - t1)
+                                return a
+        
+                            print(acceleration(0,10,0,20))
+                            Explanation (Python 2): 
+        
+                            If you were creating this in Python 2 the solution would need to have two float  functions converting the two differences to float numbers because if the differences are integers, Python will also output an integer (e.g. 3 / 2 outputs 0). In Python 3 you don't have to convert to floats.
+        
+                            
+                        </textarea>
+                   </div>
+
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 28. Why is there an error in the code and how would you fix it?</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            def foo(a, b):
+                                print(a + b)
+                            x = foo(2, 3) * 10
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+                      Answer 28.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse28" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    
+                      Line 4 throws a TypeError because Python cannot multiply a None type object with an integer. The function output is what produces a None object because the function definition is not returning anything. Fix it by using return  instead of print :
+
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>                       
+                              def foo(a, b):
+                                  return a + b
+                              x = foo(2, 3) * 10
+
+                           </textarea>
+                     </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 29. Please write a function that calculates liquid volume in a sphere using the following formula. The radius r  is always 10, so consider making it a default parameter.</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+
+                      <img src="images/29question.png" alt="Image">
+                      <span style="font-size: 18px;font-weight: 40px;"> You can then test your solution by passing 2 for h and you should get the expected output.
+                      
+                          Expected output:
+                          4071.5040790523717
+                      
+                      </span>
+                      <span style="font-size: 18px;font-weight: 40px;"> 
+                          Expected output:
+                          4071.5040790523717
+                      
+                      </span>
+
+
+
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                      Answer 29.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse29" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            from math import pi
+
+                            def volume(h, r = 10):
+                                v = ((4 * pi * r**3) / 3) - (pi * h**2 * (3*r - h) / 3)
+                                return v 
+                            print(volume(2))
+                            
+                        </textarea>
+                   </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+             
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                  <span style="font-size: 18px;font-weight: 40px;"> Question 30. Why do you get an error and how would you fix it?</span>
+              </div>
+      
+              <form style="margin-top: -15px;">
+                   <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            def foo(a=2, b):
+                                return a + b
+                            
+                        </textarea>
+                   </div>
+               </form>
+            
+      
+             <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                      Answer 30.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse30" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            def foo(b, a=2):
+                                return a + b
+                            
+                        </textarea>
+                   </div>
+                </div>
+              </div>
+            </div>
+            
+             <hr>
+      
+             <!-- New Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+       <!-- New Section -->
+
+       <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item "><a class="page-link" href="pyQ1.html" tabindex="-1">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="pyQ1.html">1</a></li>
+            <li class="page-item active"><a class="page-link" href="pyQ2.html">2 </a></li>
+            <li class="page-item"><a class="page-link" href="pyQ3.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="pyQ4.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="pyQ3.html">Next</a></li>
+          </ul>
+        </nav>
+
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,1052 @@
+---
+title: python MCQ 46-60
+keywords: Py MCQ
+sidebar: product1_sidebar
+toc: false
+permalink: pyQ4.html
+folder: product1
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</head>
+    
+  
+  
+  <div class="container">
+         
+
+
+
+
+
+
+                <!-- New Section -->
+
+                <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 46. create a script that generates 26 txt files.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                          each containing one letter of English alphabet as a name as text inside 
+
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse46" aria-expanded="false" aria-controls="collapse46">
+                        Answer 46.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse46" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                          import string, os
+
+                          if not os.path.exists("letters"):
+                              os.makedirs("letters")
+                          for letter in string.ascii_lowercase: 
+                              with open("letters/" + letter + ".txt", "w") as file:
+                                  file.write(letter + "\n")
+
+
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 47. Write a script that extracts letters from the 26 text file and put the letters in a list.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                             hints:
+                             ['a', 'b', 'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+  
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse47" aria-expanded="false" aria-controls="collapse47">
+                        Answer 47.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse47" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                             import glob
+
+                             letters = []
+                             file_list = glob.glob("letters/*.txt")
+
+                             for filename in file_list:
+                                 with open(filename, "r") as file:
+                                    letters.append(file.read().strip("\n"))
+                             print(letters)
+  
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 48.  Create a script that iterates through text files and checks if strings p, y, t, h, o, or n are found in the content of the text file. If any of those strings is found, append that string to a list.</span>
+                </div>
+        
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse48" aria-expanded="false" aria-controls="collapse48">
+                        Answer 48.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse48" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                       
+                        import glob
+
+                        letters = []
+                        file_list = glob.iglob("letters/*.txt")
+                        check = "python"
+                        
+                        for filename in file_list:
+                            with open(filename,"r") as file:
+                                letter = file.read().strip("\n")
+                                if letter in check:
+                                    letters.append(letter)
+                        
+                        print(letters)
+                        Explanation:
+                        
+                        The glob module here helps to generate a list of text files. 
+                        Then we iterate through that list and read each file inside the loop, strip "\n" characters and then check 
+                        if the letter extracted from the file is in string "python" and we append that letter if it is.
+
+                      </textarea>
+                 </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 48.1. The script is supposed to print out letter "e" if the letter is in string "Hello", but it doesn't. Please try to fix the script.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                            for letter in "Hello":
+                            if letter == "e":
+                            print(letter)
+
+
+                        Expected output:                       
+                        e 
+  
+                              
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse48_1" aria-expanded="false" aria-controls="collapse48_1">
+                        Answer 48.1.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse48_1" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+
+                            for letter in "Hello":
+                            if letter == "l":
+                                print(letter)
+
+                        Explanation:
+                        Solution was to indent the print statement because you always indent the line under an if  statement. 
+                              
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 49. The code is supposed to get some input from the user, but instead it produces an error. Please try to understand the error and then fix it.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              pass = input("Please enter your password: ") 
+
+                              Note: Please use raw_input  instead of input if you are on Python 2. For Python 3 input  is fine.
+                              Hint: You cannot use reserved keywords for variable names
+                              
+                              
+                              
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse49" aria-expanded="false" aria-controls="collapse49">
+                        Answer 49.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse49" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              pass1 = input("Please enter your password: ") 
+
+                              Explanation:
+                              
+                              There was a SyntaxError  error because the syntax to name the variable was wrong since pass  is a reserved keyword in Python. 
+                              However you can solve that by adding a number to the name or simply choosing another name for the variable.
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 50. The code produces an error. Please understand the error and try to fix it</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                              age = input("What's your age? ")
+                              age_last_year = age - 1
+                              print("Last year you were %s." % age_last_year)
+                              Note: Please use raw_input instead of input if you are on Python 2. For Python 3 input is fine.
+
+                              Hint 1: The input  function always returns a string type.
+                              Hint 2: Convert the input to an integer with int .
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse50" aria-expanded="false" aria-controls="collapse50">
+                        Answer 50.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse50" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                         
+                            Answer 1: 
+
+                            age = int(input("What's your age? "))
+                            age_last_year = age - 1
+                            print("Last year you were %s." % age_last_year)
+                            Explanation 1:
+                            
+                            As you can see we applied an int  function to the input  function. That converts user input to an integer right away.
+                            
+                            Answer 2: 
+                            
+                            age = input("What's your age? ")
+                            age_last_year = int(age) - 1
+                            print("Last year you were %s." % age_last_year)
+                            Explanation 2:
+                            
+                            In this alternative solution we applied the int  function in the line where the math operation is taking place. This could be useful 
+                            if you're intending to use the user input value as a string in other parts of your script, 
+                            so you don't want to convert it to an integer directly.
+                        </textarea>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 51. The code produces an error. Please understand the error and try to fix it</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                              The code produces an error. Please understand the error and try to fix it
+
+
+                              Hint: An open bracket always needs a closing bracket.
+                              
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse51" aria-expanded="false" aria-controls="collapse51">
+                        Answer 51.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse51" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                              print(type("Hey".replace("ey","i")[-1]))
+
+
+                              Explanation:
+                              This code produces a SyntaxError: unexpected EOF while parsing which means that Python found an unexpected End Of File while parsing.
+                               The reason of an unexpected end of file is there's a missing closing bracket at the end of the script. 
+                               So, adding a closing bracket at the end of the file fixes the code.
+                              
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 52. The code is supposed to ask the user to enter their name and surname and then it prints out those user submitted values. Instead, the code throws a TypeError. Please fix it so that the expected output is printed out.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              firstname = input("Enter first name: ")
+                              secondname = input("Enter second name: ")
+                              print("Your first name is %s and your second name is %s" % firstname, secondname)
+
+
+                              Expected output:
+                              Your first name is John and your second name is Smith 
+                              
+                              
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse52" aria-expanded="false" aria-controls="collapse52">
+                        Answer 52.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse52" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              firstname = input("Enter first name: ")
+                              secondname = input("Enter second name: ")
+                              print("Your first name is %s and your second name is %s" % (firstname, secondname))
+
+
+                              Explanation:
+                              Each of the %s  placeholders expects one value after %  to be replaced with, but you need to pass these values inside a tuple.
+                              So, putting variables firstname  and secondname  inside a tuple fixes the code.
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 53. Print out the last name of the second employee.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                                {"firstName": "Anna", "lastName": "Smith"},
+                                                {"firstName": "Peter", "lastName": "Jones"}],
+                              "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                        {"firstName": "Jessy", "lastName": "Petter"}]}
+
+
+                              Expected output:                            
+                              Smith 
+
+
+
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse53" aria-expanded="false" aria-controls="collapse53">
+                        Answer 53.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse53" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              print(d['employees'][1]['lastName'])
+
+
+
+
+                              Explanation:     
+                              d['employees']  returns this list:
+                              
+                              [{"firstName": "John", "lastName": "Doe"},
+                               {"firstName": "Anna", "lastName": "Smith"},
+                               {"firstName": "Peter", "lastName": "Jones"}]
+                              d['employees'][1]  returns the second item of the above list:
+                              
+                              {"firstName": "Anna", "lastName": "Smith"}
+                              And finally d['employees'][1]['lastName']  returns the value of lastName :
+                              
+                              Smith 
+                               
+                              
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 54.  Please update the dictionary by changing the last name of the second employee from Smith to Smooth or to whatever takes your fancy.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                            d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                {"firstName": "Anna", "lastName": "Smith"},
+                                {"firstName": "Peter", "lastName": "Jones"}],
+                            "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                  {"firstName": "Jessy", "lastName": "Petter"}]}
+
+
+                        Expected output: 
+
+                            d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                            {"firstName": "Anna", "lastName": "Smooth"},
+                                            {"firstName": "Peter", "lastName": "Jones"}],
+                            "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                      {"firstName": "Jessy", "lastName": "Petter"}]}
+
+
+
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse54" aria-expanded="false" aria-controls="collapse54">
+                        Answer 54.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse54" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                            d['employees'][1]['lastName'] = "Smooth"
+
+
+
+                            Explanation:   
+                            On the left side of the assignment operator we are accessing Smith  as we did in the previous exercise. 
+                            Then using the assignment operator we simply assign a new string to that item.
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 55. Please add a new employee to the dictionary.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                            d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                {"firstName": "Anna", "lastName": "Smith"},
+                                {"firstName": "Peter", "lastName": "Jones"}],
+                                "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                      {"firstName": "Jessy", "lastName": "Petter"}]}
+    
+
+
+                                      Expected output: 
+            
+                                          {'employees': [{'firstName': 'John', 'lastName': 'Doe'},
+                                                        {'firstName': 'Anna', 'lastName': 'Smith'},
+                                                        {'firstName': 'Peter', 'lastName': 'Jones'},
+                                                        {'firstName': 'Albert', 'lastName': 'Bert'}],
+                                          'owners': [{'firstName': 'Jack', 'lastName': 'Petter'},
+                                                      {'firstName': 'Jessy', 'lastName': 'Petter'}]}
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse55" aria-expanded="false" aria-controls="collapse55">
+                        Answer 55.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse55" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+
+                            d["employees"].append(dict(firstName = "Albert", lastName = "Bert"))
+
+
+
+                            Explanation:
+                            
+                            d['employees']  returns this list:
+                            
+                            [{"firstName": "John", "lastName": "Doe"},
+                             {"firstName": "Anna", "lastName": "Smith"},
+                             {"firstName": "Peter", "lastName": "Jones"}]
+                            Then d["employees"].append(dict(firstName = "Albert", lastName = "Bert"))  appends a new item to the list.
+                             This item happens to be a new dictionary.        
+
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 56.  Store the dictionary in a json file. </span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>                       
+                              d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                  {"firstName": "Anna", "lastName": "Smith"},
+                                  {"firstName": "Peter", "lastName": "Jones"}],
+                              "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                        {"firstName": "Jessy", "lastName": "Petter"}]}
+                                                  
+                          </textarea>
+
+                          <img src="images/56question.png" alt="Image">
+
+
+
+
+
+
+
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse56" aria-expanded="false" aria-controls="collapse56">
+                        Answer 56.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse56" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+  
+  
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>                       
+                              import json
+
+                              d = {"employees":[{"firstName": "John", "lastName": "Doe"},
+                                              {"firstName": "Anna", "lastName": "Smith"},
+                                              {"firstName": "Peter", "lastName": "Jones"}],
+                              "owners":[{"firstName": "Jack", "lastName": "Petter"},
+                                        {"firstName": "Jessy", "lastName": "Petter"}]}
+                              
+                              with open("company1.json", "w") as file:
+                                  json.dump(d, file, indent=4, sort_keys=True)
+                              Explanation:
+                              
+                              As you can see we created the json file using the standard file handling method, but then we used json.
+                              dump  which makes it easy to write the dictionary content to the file. 
+                              
+                              indent=4  will create 4 white spaces to indent the different levels of the dictionary items and sort_keys=True  
+                              tells Python to preserve the order of the dictionary thrown in the file.
+                              
+                          </textarea>
+                     </div>
+  
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 57. Please download the file in the attachment and use Python to print out its content.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+
+                              Expected output: 
+
+                              {'employees': [{'firstName': 'John', 'lastName': 'Doe'},
+                                             {'firstName': 'Anna', 'lastName': 'Smith'},
+                                             {'firstName': 'Peter', 'lastName': 'Jones'}],
+                               'owners': [{'firstName': 'Jack', 'lastName': 'Petter'},
+                                          {'firstName': 'Jessy', 'lastName': 'Petter'}]}
+
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse57" aria-expanded="false" aria-controls="collapse57">
+                        Answer 57.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse57" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                              import json
+                              from pprint import pprint
+                              
+                              with open("company1.json","r") as file:
+                                  d = json.loads(file.read())
+                              
+                              print(d)
+
+
+                              Explanation:
+                              
+                              We're opening the file in read mode and then using json.
+                              loads  which gets a string as output and creates a dictionary object out of that.
+
+
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 58. Please download the json file in the attachment and use Python to add a new employee to the content of the file so that the file looks like in the expected output below.</span>
+                </div>
+        
+
+                <p>Expected output: </p>
+
+                <img src="images/58question.png" alt="Image">
+
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse58" aria-expanded="false" aria-controls="collapse58">
+                        Answer 58.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse58" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              import string
+
+                              with open("comany1.json", "r+") as file:
+                                  d = json.load(file.read())
+                                  d["employee"].append(dict(firstName = "Albert", lastName = "Bert"))
+                                  lastName = "Bert"))
+                                  file.seek(0)
+                                  json.dump(d, file, indent=4, sort_keys=True)
+                                  file.truncate()
+
+                                                            
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+  
+  
+  
+               
+                  <!-- New Section -->
+  
+                  <div class="alert alert-info" role="alert">
+                    <span style="font-size: 18px;font-weight: 40px;"> Question 59. Please complete the code so that it prints out the expected output.</span>
+                </div>
+        
+                <form style="margin-top: -15px;">
+                     <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              a = [1, 2, 3] 
+
+                              Expected output: 
+                                  Item 1 has index 0
+                                  Item 2 has index 1
+                                  Item 3 has index 2
+
+                                  Hint 1: Use a for  loop.
+                                  Hint 2: Iterate through enumerate(a)  .
+
+                          </textarea>
+                     </div>
+                 </form>
+              
+        
+               <div class="accordion" id="accordionExample" style="margin-top: -16px;">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse59" aria-expanded="false" aria-controls="collapse59">
+                        Answer 59.
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapse59" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+                           
+                              a = [1, 2, 3]
+                              for index, item in enumerate(a):
+                                  print("Item %s has index %s" % (item, index))
+
+
+                              Explanation:
+                              enumerate(a)  creates an enumerate object which yields pairs of indexes and items. 
+                              Then we iterate through that object print out the item-index pairs in each iteration together with some other strings.
+                              
+                          </textarea>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+               <hr>
+        
+               <!-- New Section -->
+  
+  
+  
+  
+
+
+
+
+<!-- New Section -->
+  
+<div class="alert alert-info" role="alert">
+    <span style="font-size: 18px;font-weight: 40px;"> Question 60. Create a program that prints Hello repeatedly. </span>
+</div>
+
+
+
+<div class="accordion" id="accordionExample" style="margin-top: -16px;">
+<div class="card">
+  <div class="card-header" id="headingThree">
+    <h2 class="mb-0">
+      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse60" aria-expanded="false" aria-controls="collapse60">
+        Answer 60.
+      </button>
+    </h2>
+  </div>
+  <div id="collapse60" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" disabled>
+           
+
+            while 1 < 2 :
+                print("Hello")
+
+
+          </textarea>
+     </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- New Section -->
+
+
+
+
+
+
+       <!-- New Section -->
+
+       <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item "><a class="page-link" href="pyQ3.html" tabindex="-1">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="pyQ1.html">1</a></li>
+            <li class="page-item "><a class="page-link" href="pyQ2.html">2 </a></li>
+            <li class="page-item "><a class="page-link" href="pyQ3.html">3</a></li>
+            <li class="page-item active"><a class="page-link" href="pyQ4.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="Comming.html">Next</a></li>
+          </ul>
+        </nav>
+
+
+    </div>
+
+    
+</body>
+</html>
+
