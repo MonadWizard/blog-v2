@@ -921,6 +921,9 @@ print(mask)
 print(df[mask]) # print all without Finance in Team column
 
 # or example same as
+
+df = pd.read_csv("employees.csv", parse_dates = ["Start Date", "Last Login Time"])
+
 print(df[df["Salary"] > 110000])
 
 print(df[df["Start Date"] <= "1985-01-01"])
