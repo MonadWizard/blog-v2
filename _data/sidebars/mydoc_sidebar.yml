@@ -99,3 +99,21 @@ entries:
       output: web, pdf
 
 
+  - title: Virtualization
+    output: web, pdf
+    folderitems:
+
+    - title: Python virtualization
+      url: /virtualization_py_environment.html
+      output: web, pdf
+
+    - title: Vargant পুঁথি
+      url: /virtualization_Vargant.html
+      output: web, pdf
+
+    - title: Docker পুঁথি
+      url: /virtualization_docker.html
+      output: web, pdf
+
+
+
