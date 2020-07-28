@@ -47,6 +47,12 @@ fortune["Sector"].value_counts()  # there are 21 sector , we see
 
 ```
 
+
+
+<font color="blue"> Output: </font>
+
+
+
     dataframe type:  <class 'pandas.core.frame.DataFrame'> 
     
     
@@ -130,6 +136,11 @@ fortune.loc[24] # here sector which is group object, that match with 1st key
 
 ```
 
+
+<font color="blue"> Output: </font>
+
+
+
               Company      Sector                     Industry         Location  \
     Rank                                                                          
     1         Walmart   Retailing        General Merchandisers  Bentonville, AR   
@@ -190,9 +201,8 @@ fortune.loc[24] # here sector which is group object, that match with 1st key
 <font color="green"> datafeame.get_group("target_value") </font> ব্যবহার করে আমরা DataFrame থেকে যে কোন value define করতে পারি এবং যে সব row তে ঐ value আছে শুধু সেই সব row বিশিষ্ট একটা নতুন dataFrame পেতে পারি। 
 
 
-```python
+
 <font color="blue"> Example: </font>
-```
 
 
 ```python
@@ -213,6 +223,11 @@ tec = sectors.get_group("Technology")
 tec.head(5)
 
 ```
+
+
+
+
+<font color="blue"> Output: </font>
 
 
 
@@ -345,6 +360,11 @@ sectors["Employees"].sum()
 sectors["Profits"].max()
 sectors[["Employees", "Profits"]].sum()
 ```
+
+
+
+
+<font color="blue"> Output: </font>
 
 
 
@@ -496,15 +516,8 @@ sectors[["Employees", "Profits"]].sum()
 আমরা groupby এর যে কোন method ব্যবহার করলে তা প্রথমে outer index টার পর same way তে inner index এ execute হবে।  
 
 
-```python
+
 <font color="blue"> Example: </font>
-```
-
-
-      File "<ipython-input-1-b668d9c4c558>", line 1
-        <font color="blue"> Example: </font>
-        ^
-    SyntaxError: invalid syntax
 
 
 
@@ -524,6 +537,11 @@ sectors["Revenue"].sum()
 
 ```
 
+
+
+
+
+<font color="blue"> Output: </font>
 
 
 
@@ -556,6 +574,11 @@ sectors["Revenue"].sum()
         groupBy_Object.agg(["operation1","operation2","operation3"])
 
 
+
+
+
+
+
 <font color="blue"> Example: </font>
 
 
@@ -575,6 +598,11 @@ sectors.agg({"Revenue" : ["sum","mean"],
 a = sectors.agg(["size","sum","mean"])
 a
 ```
+
+
+
+
+<font color="blue"> Output: </font>
 
 
 
@@ -894,9 +922,7 @@ a
 আমাদের data-set এ যে ১০০০ company এর data আছে টার মধ্যে প্রতিটি sector এ highest revenue যে company এর তা বাহির করার try করে দেখি। 
 
 
-```python
 <font color="blue"> Example: </font>
-```
 
 
 ```python
@@ -929,6 +955,9 @@ for city, data in cities:
 df2
 ```
 
+
+
+<font color="blue"> Output: </font>
 
 
 
