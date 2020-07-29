@@ -3,7 +3,7 @@ title: Pandas datesAndTime
 keywords: Pandas Bangla Tutorials, bangla Pandas, Bangla Python, Data Preprocessing Bangla, Monad wizard
 last_updated: July 20, 2020
 tags: [getting_started]
-summary: "I have used this theme for Bangla Python Library that I've worked on as a professional technical writer."
+summary: "python bangla blog post এর দ্বারা Pandas Library এর concatination, join, merge related method গুলো আলোচিত হয়েছে ।"
 sidebar: mydoc_sidebar
 permalink: pandas_datesAndTime.html
 folder: mydoc

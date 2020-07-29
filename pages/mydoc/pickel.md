@@ -3,7 +3,7 @@ title: pickel
 keywords: pickel  Bangla Tutorials, checksum bangla, serialization bangla, pickel , Bangla pickel, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
-summary: "Here I try to complete all Basic Django Topic with short note. "
+summary: "Here I try to complete all Basic pickel Topic with short note. "
 sidebar: mydoc_sidebar
 permalink: pickel.html
 folder: mydoc
