@@ -60,6 +60,20 @@ entries:
       output: web, pdf
 
 
+  - title: numpy
+    output: web, pdf
+    folderitems:
+
+    - title: numpy Basic
+      url: /numpy_basic.html
+      output: web, pdf
+
+    - title: numpy advance
+      url: /numpy_advance.html
+      output: web, pdf
+
+
+
 
   - title: checksum or serialization
     output: web, pdf
