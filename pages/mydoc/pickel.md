@@ -40,7 +40,7 @@ c programming language এ  <font color="green"> cPickle </font> use করা �
 import pandas as pd
 data= pd.read_csv('Salary_Data.csv')
 
-<font color="blue">  apply linear regression <font>
+##  apply linear regression 
 
 from sklearn import linear_model
 model= linear_model.LinearRegression()
@@ -79,7 +79,7 @@ with open("model_pickle", "wb") as f:
 
 ```python
 
-wwith open("model_pickle", "rb") as f:
+with open("model_pickle", "rb") as f:
     mp=pickle.load(f)
 
 ```
