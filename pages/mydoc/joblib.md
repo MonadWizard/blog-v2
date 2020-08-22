@@ -1,9 +1,9 @@
 ---
-title: md5
+title: joblib
 keywords: joblib  Bangla Tutorials, bangla serialization , Bangla Python, Blog Bangla, Monad wizard
 last_updated: Aug 22, 2020
 # tags: [getting_started]
-summary: "Here I try to complete all Basic Django Topic with short note. "
+summary: "Here I try to complete all Basic joblib Topic with short note. "
 sidebar: mydoc_sidebar
 permalink: joblib.html
 folder: mydoc
