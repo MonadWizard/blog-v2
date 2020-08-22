@@ -83,8 +83,8 @@ entries:
       url: /pickel.html
       output: web, pdf
 
-    - title: md5 extention
-      url: /md5.html
+    - title: joblib পুঁথি
+      url: /joblib.html
       output: web, pdf
 
   - title: Git
