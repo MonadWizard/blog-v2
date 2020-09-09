@@ -14,7 +14,8 @@ entries:
     - title: resume
       external_url: https://resume.monadwizard.live
       output: web
-    - title: etc
+    - title: Demo projects
       url: /p2_landing_page.html
       output: web
-   
+  
+      

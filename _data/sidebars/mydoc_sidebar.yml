@@ -100,7 +100,7 @@ entries:
       output: web, pdf
 
 
-  - title: Django
+  - title: Web Frameworks
     output: web, pdf
     folderitems:
 

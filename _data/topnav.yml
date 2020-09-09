@@ -36,7 +36,7 @@ topnav_dropdowns:
         - title: My Resume
           external_url: https://resume.monadwizard.live
 
-        - title: etc news
+        - title: Demo projects
           url: /p2_landing_page.html
 
 
