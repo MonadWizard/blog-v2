@@ -96,16 +96,57 @@ pip freeze
 
 ### include ipython kernel to virtual environment
 
+
+
+make sure যে IPython kernel কে virtual environment এ install দাওয়া আছে। 
+virtual environment এ manually kernel কে বিভিন্ন version এর python এ add করা যায়, 
+<a style='color:green'> pip install ipykernel </a> দ্বারা। 
+
+১ম virtual environment কে activate করতে হবে 
+
+তারপর <a style='color:green'> python -m ipykernel install --user --name=envName
+ </a> --name=virtualEnv এর নাম দিতে হবে। 
+
+এখন jupyter notebook এ গিয়ে New button এ ক্লিক করলে নিউ environment টি দেখতে পারা যাবে এবং প্রয়োজন মত ব্যবহার করা যাবে। 
+
+
 ```
 
 # install ipython consol in virtual environment
 pip install ipykernel
 
 # now add python and ipykernel to jupyter notebook
-python -m ipykernel install --user --name=envkernel
+python -m ipykernel install --user --name=env
 
 
 ```
+
+
+
+পূর্বের ব্যবহার করা virtual environment কে jupyter notebook এ ব্যবহার করতে চাইলে এই প্রক্রিয়া টি ব্যবহার করতে পারেন। 
+
+```
+    # create venv     
+    python3 -m venv env
+
+    # activate venv
+    source env/bin/activate
+
+    # install ipython consol in virtual environment
+    pip install ipykernel
+
+    # now add python and ipykernel to jupyter notebook
+    python -m ipykernel install --user --name=env
+
+    # open jupyterNotebook if Installed
+    jupyter notebook
+
+```
+
+এখন jupyter notebook এ নতুন env টি দেখতে এবং ব্যবহার করতে পারা যাবে। 
+
+![image](https://drive.google.com/uc?export=view&id=1t40yKloEg57jiog7KqUqfg_iyEKdSvrO)
+
 
 
 
