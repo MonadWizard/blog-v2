@@ -27,7 +27,7 @@ folder: mydoc
 
 প্রথমতও আমাদের একটা directory প্রয়োজন যেখানে আমরা আমাদের file create করব এবং প্রয়োজনে github a repository বানায়ে upload দেব।
 
-amra git bash open করি than ,
+ git bash open করি than ,
 
  <font color="blue"> shell code <font color="green"> mkdir </font> এর পর পছন্দ মত directory এর নাম দিয়া folder তৈরী করি । </font>
 
