@@ -68,11 +68,39 @@ entries:
       url: /numpy_basic.html
       output: web, pdf
 
-    - title: numpy advance
-      url: /numpy_advance.html
+
+    - title : 100 numpy exercises
+      url: /Numpy_100_exercises.html
+      output: web, pdf
+
+    - title : 100 numpy exercises with hints
+      url: /Numpy_100_exercises_with_hints.html
       output: web, pdf
 
 
+    - title : 100 numpy exercises with solutions
+      url: /Numpy_100_exercises_with_solutions.html
+      output: web, pdf
+
+    - title : 100 numpy exercises solutions with hints
+      url: /Numpy_100_exercises_solutions_with_hints.html
+      output: web, pdf
+
+
+
+  - title: Data Visualization
+    output: web, pdf
+    folderitems:
+
+    - title: matplotlib essentials Demo 
+      url: /visualization_matplotlib_pyplot.html
+      output: web, pdf
+
+    - title: seaborn essentials Demo
+      url: /visualization_seaborn.html
+      output: web, pdf
+
+  
 
 
   - title: checksum or serialization

@@ -11,6 +11,7 @@ entries:
   - title: Python MCQ
     output: web, pdf
     folderitems:
+
     - title: Py MCQ 1-15
       url: /pyQ1.html
       output: web
@@ -34,8 +35,8 @@ entries:
 
   - title: Py Quiz
     output: web, pdf
-
     folderitems:
+
     - title: Comming Soon
       url: /Comming.html
       output: web, pdf
