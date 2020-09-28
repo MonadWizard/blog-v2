@@ -8,7 +8,7 @@ entries:
   folders:
 
 
-  - title: Python MCQ
+  - title: Python Q/A
     output: web, pdf
     folderitems:
 
@@ -33,7 +33,7 @@ entries:
       output: web, pdf
 
 
-  - title: Py Quiz
+  - title: Numpy Q/A
     output: web, pdf
     folderitems:
 
