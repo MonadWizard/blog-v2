@@ -128,13 +128,19 @@ entries:
       output: web, pdf
 
 
-  - title: Web Frameworks
+  - title: Django
     output: web, pdf
     folderitems:
 
     - title: Django পুঁথি
       url: /django_cheetsheet.html
       output: web, pdf
+
+
+    - title: PostgreSQL+pgAdmin4 পুঁথি linux
+      url: /postgreSQL_basic_linux.html
+      output: web, pdf
+
 
     - title: Coming Soon
       url: /commingSoon.html
