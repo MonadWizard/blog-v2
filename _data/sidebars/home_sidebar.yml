@@ -5,17 +5,12 @@ entries:
   levels: one
   folders:
 
-  - title: Others
+  - title: Artificial Intelligence
     output: web
     folderitems:
     - title: News
       url: /news.html
       output: web
-    - title: resume
-      external_url: https://resume.monadwizard.live
-      output: web
-    - title: Demo projects
-      url: /p2_landing_page.html
-      output: web
+    
   
       
