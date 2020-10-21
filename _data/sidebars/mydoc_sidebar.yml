@@ -92,13 +92,13 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: matplotlib essentials Demo 
-      url: /visualization_matplotlib_pyplot.html
-      output: web, pdf
-
-    - title: seaborn essentials Demo
+    - title: seaborn পুঁথি
       url: /visualization_seaborn.html
       output: web, pdf
+
+    # - title: matplotlib essentials Demo 
+    #   url: /visualization_matplotlib_pyplot.html
+    #   output: web, pdf      
 
   
 
