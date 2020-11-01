@@ -34,7 +34,7 @@ topnav_dropdowns:
     - title: Others
       folderitems:
         - title: My Resume
-          external_url: https://monadwizard.github.io/online_resume/
+          external_url: https://monadwizard.github.io/online_resume.github.io/
 
         - title: Demo projects
           url: /p2_landing_page.html
