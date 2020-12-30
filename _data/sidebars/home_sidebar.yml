@@ -5,10 +5,10 @@ entries:
   levels: one
   folders:
 
-  - title: Artificial Intelligence
+  - title: হ জ ব র ল 
     output: web
     folderitems:
-    - title: News
+    - title: Mix News
       url: /news.html
       output: web
     
