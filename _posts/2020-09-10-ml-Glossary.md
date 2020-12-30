@@ -1,7 +1,7 @@
 ---
 title:  "Machine Learning Glossary"
 categories: jekyll update
-permalink: myupdate.html
+permalink: myupdate1.html
 tags: [news]
 ---
 

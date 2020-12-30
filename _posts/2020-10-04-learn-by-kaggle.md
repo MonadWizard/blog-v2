@@ -1,7 +1,7 @@
 ---
 title:  "learn ML by kaggle workflow"
 categories: jekyll update
-permalink: myupdate.html
+permalink: myupdate2.html
 tags: [news]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:  "Awesome Python gits"
 categories: jekyll update
-permalink: myupdate.html
+permalink: myupdate5.html
 tags: [news]
 ---
 
