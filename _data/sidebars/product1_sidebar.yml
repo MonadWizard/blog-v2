@@ -33,12 +33,31 @@ entries:
       output: web, pdf
 
 
-  - title: Numpy Q/A
+  - title: Javascript Q/A
     output: web, pdf
     folderitems:
 
-    - title: Comming Soon
+    - title: JS MCQ 1-50
+      url: /jsQ50.html
+      output: web, pdf
+
+    - title: JS MCQ 51-100
+      url: /jsQ100.html
+      output: web, pdf
+
+    - title: JS MCQ 101-150
+      url: /jsQ150.html
+      output: web, pdf
+
+
+
+
+  - title: Comming Soon
+    output: web, pdf
+    folderitems:
+
+    - title: Comming ....
       url: /Comming.html
       output: web, pdf
 
-    
+
