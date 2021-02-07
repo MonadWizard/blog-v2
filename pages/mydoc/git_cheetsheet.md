@@ -1,6 +1,6 @@
 ---
 title: cheet sheet github and git   
-keywords: github  Bangla Tutorials, bangla Django, Bangla Python, Blog Bangla, Monad wizard
+keywords: github  Bangla Tutorials, bangla git, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
 summary: "Here I try to complete all Basic Git and GitHub Topic with short note. "

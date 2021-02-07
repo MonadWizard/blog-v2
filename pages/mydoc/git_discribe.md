@@ -1,9 +1,9 @@
 ---
 title: publish static site on github
-keywords: github  Bangla Tutorials, bangla Django, Bangla Python, Blog Bangla, Monad wizard
+keywords: github  Bangla Tutorials, bangla git, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
-summary: "Here I try to complete all Basic Django Topic with short note. "
+summary: "Here I try to complete all Basic git Topic with short note. "
 sidebar: mydoc_sidebar
 permalink: git_discribe.html
 folder: mydoc
