@@ -1,9 +1,9 @@
 ---
-title: publish static site on github
+title: গিট এর সব essential topicগুলো cover করা হয়েছে।  
 keywords: github  Bangla Tutorials, bangla git, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
-summary: "Here I try to complete all Basic git Topic with short note. "
+summary: "this post is collected from github"
 sidebar: mydoc_sidebar
 permalink: git_discribe.html
 folder: mydoc
