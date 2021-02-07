@@ -123,8 +123,8 @@ entries:
       url: /git_cheetsheet.html
       output: web, pdf
 
-    - title: Publish Static Site
-      url: /git_publish_staticSite.html
+    - title: git describe by M.M.H.Masud
+      url: /git_discribe.html
       output: web, pdf
 
 
