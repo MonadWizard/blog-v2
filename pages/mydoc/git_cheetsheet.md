@@ -286,6 +286,9 @@ Credential Manager এ গিয়ে <font color="green">windows Credentials</fon
             git remote -v 
 
 
+<font color="blue"> git এ tracked file যদি untracked করতে হয় তবে </font>
+
+            git rm -r --cached <file>
 
 
 
