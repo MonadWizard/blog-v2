@@ -258,15 +258,53 @@ conda list
 
 
 ```
+### Save installed package to be reinstalled formate
 
 
+installed packages গুলো requirements.txt বা environment.yml file এ save করতে নিম্নের command ব্যবহার করা যায়। 
+
+For conda, I would first export the environment list as environment.yml and omit the package build numbers, which is often what makes it hard to reproduce the environment on another OS.
+
+```
+conda env export > environment.yml --no-builds
+
+```
 
 
+Output:
+
+```
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - blas=1.0
+  - ca-certificates=2020.10.14
+  - certifi=2020.6.20
+...
+
+```
+
+For pip, what you describe above is apparently a well-known issue in more recent versions of pip. The workaround to get a "clean" requirements.txt file, is to export as such:
 
 
+```
+pip list --format=freeze > requirements.txt
 
+```
 
+Output:
 
+```
+certifi==2020.6.20
+cycler==0.10.0
+kiwisolver==1.2.0
+matplotlib==3.3.2
+mkl-fft==1.2.0
+...
+
+```
 
 
 
