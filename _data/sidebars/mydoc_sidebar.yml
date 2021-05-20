@@ -136,6 +136,10 @@ entries:
       url: /django_cheetsheet.html
       output: web, pdf
 
+    - title: Django REST framework পুঁথি
+      url: /django_rest-framework.html
+      output: web, pdf      
+
 
     - title: PostgreSQL+pgAdmin4 পুঁথি linux
       url: /postgreSQL_basic_linux.html
