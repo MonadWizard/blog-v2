@@ -1,5 +1,5 @@
 ---
-title:  "ESLint, Prettier, Path Autocomplete, Bracket Pair Colorizer, ES7 React/Redux/GraphQL/React-Native snippets VSCODE"
+title:  "ESLint, Prettier snippets VSCODE"
 categories: jekyll update
 permalink: myupdate7.html
 tags: [news]
@@ -9,44 +9,7 @@ tags: [news]
 
 
 
-
-
-A basic template that consists of the essential elements that are required to start building a React application using [create-react-app](https://github.com/facebook/create-react-app).
-
-## Table of contents
-
-- [Installation](#installation)
-  - [Node JS](#node-js)
-  - [Create React App](#create-react-app)
-- [Editor setup](#editor-setup)
-  - [Plugins](#plugins)
-  - [Settings](#settings)
-  - [Set Line Breaks](#set-line-breaks)
-- [Linting & Auto Formatting setup](#linting-and-auto-formatting-setup)
-
-## Installation
-
-### node js
-
-You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine. You can check your node version by simply typing below commands:
-
-```bash
-node -v
-```
-
-If you don't have node.js installed in your machine, you can install it from [node.js official website](https://nodejs.org/en).
-
-In case you have older version node.js installed in your machine, you can follow [this guideline](https://phoenixnap.com/kb/update-node-js-version) to update node.js.
-
-### Create React App
-
-Open terminal and 'cd' into the folder where you want your project to reside & enter the below command in your terminal:
-
-```bash
-npx create-react-app ice-cream-builder
-```
-
-This will create a new folder called "ice-cream-builder" and install everything required to start a new react application.
+<!-- Editor Setup -->
 
 ## Editor Setup
 
@@ -54,132 +17,135 @@ You can use any editor but as I personally prefer VS Code. I will give some inst
 
 ### Plugins
 
-I would recommend below plugins for VS Code:
+You need to install the below plugins:
 
 - ESLint by Dirk Baeumer
 - Prettier - Code formatter by Prettier
-- Live Server by Ritwick Dey
-- Path Autocomplete by Mithai Vilcu
-- Bracket Pair Colorizer by CoenraadS
-- Material Icon Theme by Phillipp Kief
-- ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+- Dracula Official Theme (optional)
 
 ### Settings
 
-I would also recommend below settings for VS Code. You can edit the VS Code settings.json file by simply pressing (CTRL + ,) in Windows or (CMD + ,) in MacOS
+Follow the below settings for VS Code -
+
+1. Create a new folder called ".vscode" inside the project root folder
+2. Create a new file called "settings.json" inside that folder.
+3. Paste the below json in the newly created settings.json file and save the file.
 
 ```json
 {
-  "editor.wordWrap": "on",
+  // Theme
+  "workbench.colorTheme": "Dracula",
+
+  // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  "javascript.validate.enable": false,
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
-  "bracketPairColorizer.colorMode": "Independent",
-  "bracketPairColorizer.independentPairColors": [
-    ["()", ["White"], "Red"],
-    ["[]", ["Orchid"], "Red"],
-    ["{}", ["LightSkyBlue"], "Red"]
-  ],
-  "workbench.iconTheme": "material-icon-theme",
+  // emmet
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  },
-  "path-autocomplete.extensionOnImport": true,
-  "path-autocomplete.excludedItems": {
-    "**/*.js": {
-      "when": "**"
-    },
-    "**/*.jsx": {
-      "when": "**"
-    }
   }
 }
 ```
+
+If you followed all previous steps, the theme should change and your editor should be ready.
 
 ### Set Line Breaks
 
 Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
 
 
+## Linting Setup
 
-## Linting and auto Formatting Setup
+In order to lint and format your React project automatically according to popular airbnb style guide, I recommend you to follow the instructions below.
 
-- Open terminal and cd into the project directory
-- enter below command
+### Install Dev Dependencies
 
-```bash
-npx install-peerdeps --dev eslint-config-airbnb@18.1.0
+```sh
+yarn add -D prettier
+yarn add -D babel-eslint
+npx install-peerdeps --dev eslint-config-airbnb
+yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
-- when the above one finishes, enter the below command
+or You can also add a new script in the scripts section like below to install everything with a single command:
 
-```bash
-npm install prettier eslint-config-prettier eslint-plugin-prettier
+```json
+scripts: {
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+}
 ```
 
-- create 2 new files inside the project root folder called '.eslintrc' and '.eslintignore'
-- write below lines inside .eslintignore file
+and then simply run the below command in the terminal -
 
-```txt
-src/serviceWorker.js
-src/setupTests.js
-public/*
+```sh
+yarn lint #or 'npm run lint'
 ```
 
-- write below lines inside .eslintrc file
+### Create Linting Configuration file manually
 
-```txt
+Create a `.eslintrc` file in the project root and enter the below contents:
+
+```json
 {
-    "extends": [
-        "react-app",
-        "airbnb",
-        "airbnb/hooks",
-        "eslint:recommended",
-        "plugin:jsx-a11y/recommended",
-        "prettier",
-        "prettier/react"
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": 0,
+    "react/state-in-constructor": 0,
+    "indent": 0,
+    "linebreak-style": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
     ],
-    "plugins": [
-        "jsx-a11y",
-        "prettier"
-    ],
-    "rules": {
-        "no-console": "off",
-        "react/state-in-constructor": "off",
-        "react/prop-types": "off",
-        "jsx-a11y/click-events-have-key-events": "off",
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
-            }
-        ],
-        "prettier/prettier": [
-            "error",
-            {
-                "trailingComma": "es5",
-                "singleQuote": true,
-                "printWidth": 100,
-                "tabWidth": 4,
-                "semi": true
-            }
-        ]
-    }
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 4,
+        "semi": true,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "plugins": ["prettier", "react", "react-hooks"]
 }
 ```

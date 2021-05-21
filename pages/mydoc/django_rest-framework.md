@@ -1,5 +1,5 @@
 ---
-title: cheet sheet  Django
+title: Django REST framework example
 keywords: Django REST Bangla Tutorials, bangla REST Django, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
