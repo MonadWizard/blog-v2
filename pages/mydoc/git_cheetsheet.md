@@ -292,6 +292,28 @@ Credential Manager এ গিয়ে <font color="green">windows Credentials</fon
 
 
 
+<font color="blue"> fatch a clone branch by </font>
+
+            git fetch --all  
+
+
+
+<font color="blue"> pull a branch by </font>
+
+            git pull --all  
+
+
+
+<font color="blue"> see all (local & remota) branch by </font>
+
+            git branch -a
+
+
+<font color="blue"> see all remote branch by </font>
+
+            git branch -r
+
+
 
 
 
