@@ -13,11 +13,11 @@ tags: [news]
 
 ## Editor Setup
 
-You can use any editor but as I personally prefer VS Code. I will give some instructions about how I prefer VS code to be setup for React applications.
+এই পোস্ট টিতে mainly VSCODE এ react.js এর জন্য কিছু usefull plug-in এর setup দেওয়া হয়েছে । 
 
 ### Plugins
 
-You need to install the below plugins:
+নিম্নের extention গুলো install দেওয়া থাকতে হবে। 
 
 - ESLint by Dirk Baeumer
 - Prettier - Code formatter by Prettier
@@ -149,3 +149,28 @@ Create a `.eslintrc` file in the project root and enter the below contents:
   "plugins": ["prettier", "react", "react-hooks"]
 }
 ```
+
+
+### for ignore eslint checking
+
+eslint আর node_modules এর ভিতরের eslint এর version এ error হইতে পারে। এর জন্য simpley just terminal এর prosedure টা follow করলেই চলবে । 
+such as , প্রথমে যে directory তে yarn.lock বা .eslintrc 
+file আছে ঐ directory তে .env ফাইল তৈরি করে তার ভিতর 
+
+```
+SKIP_PREFLIGHT_CHECK=true
+
+```
+দিয়ে দিব , টা হইলে এর error face হবে না। 
+
+
+
+
+
+
+
+
+
+
+
+
