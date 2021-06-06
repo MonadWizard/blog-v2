@@ -1,16 +1,28 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Sidebar
-  levels: one
-  folders:
+    - title: Sidebar
+      levels: one
+      folders:
+          - title: হ জ ব র ল
+            output: web
+            folderitems:
+                - title: All
+                  url: /news.html
+                  output: web
 
-  - title: হ জ ব র ল 
-    output: web
-    folderitems:
-    - title: Mix News
-      url: /news.html
-      output: web
-    
-  
-      
+                - title: Web resourse
+                  url: /tag_resourse.html
+                  output: web
+
+                - title: Library & Framework
+                  url: /tag_lib_framework.html
+                  output: web
+
+                - title: programmer news
+                  url: /tag_news.html
+                  output: web
+
+                - title: Important notes
+                  url: /tag_notes.html
+                  output: web

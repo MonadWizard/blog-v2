@@ -1,16 +1,12 @@
 ---
-title:  "learn ML by kaggle workflow"
+title: 'learn ML by kaggle workflow'
 categories: jekyll update
 permalink: myupdate2.html
-tags: [news]
+tags: [resourse]
 ---
 
+**_kaggle.com_** থেকে নেওয়া এই course instruction follow করে আপনে অনেক সহজে python with ML এর way খুঁজে পাইবেন বলে আমার মনে হয়।
 
-***kaggle.com*** থেকে নেওয়া এই course instruction follow করে আপনে অনেক সহজে python with ML এর way খুঁজে পাইবেন বলে আমার মনে হয়। 
-
-
-[এই link এ প্রবেশ করুন ](https://www.kaggle.com/learn/overview)
-
-
+[এই link এ প্রবেশ করুন](https://www.kaggle.com/learn/overview)
 
 {% include links.html %}
