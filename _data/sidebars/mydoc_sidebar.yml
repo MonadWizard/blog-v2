@@ -1,171 +1,155 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: sidebar
-  product: Python Bangla Doc
-  version: 0.02
-  folders:
+    - title: sidebar
+      product: Python Bangla Doc
+      version: 0.02
+      folders:
+          - title:
+            output: pdf
+            type: frontmatter
+            folderitems:
+                - title:
+                  url: /titlepage.html
+                  output: pdf
+                  type: frontmatter
+                - title:
+                  url: /tocpage.html
+                  output: pdf
+                  type: frontmatter
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+          - title: Pandas
+            output: web, pdf
+            folderitems:
+                - title: series
+                  url: /pandas_series.html
+                  output: web, pdf
 
-  - title: Pandas
-    output: web, pdf
-    folderitems:
- 
-    - title: series
-      url: /pandas_series.html
-      output: web, pdf
+                - title: dataFrames
+                  url: /pandas_dataFrames.html
+                  output: web, pdf
 
-    - title: dataFrames
-      url: /pandas_dataFrames.html
-      output: web, pdf
+                - title: work With Text-Data
+                  url: /pandas_workWithTextData.html
+                  output: web, pdf
 
-    - title: work With Text-Data
-      url: /pandas_workWithTextData.html
-      output: web, pdf
+                - title: Multi Index
+                  url: /pandas_multiIndex.html
+                  output: web, pdf
 
-    - title: Multi Index
-      url: /pandas_multiIndex.html
-      output: web, pdf
+                - title: Group By
+                  url: /pandas_GroupBy.html
+                  output: web, pdf
 
-    - title: Group By
-      url: /pandas_GroupBy.html
-      output: web, pdf
+                - title: merging, joining and concatenating
+                  url: /pandas_mergingJoiningConcatenating.html
+                  output: web, pdf
 
-    - title: merging, joining and concatenating
-      url: /pandas_mergingJoiningConcatenating.html
-      output: web, pdf
+                - title: Dates and Times
+                  url: /pandas_datesAndTime.html
+                  output: web, pdf
 
-    - title: Dates and Times
-      url: /pandas_datesAndTime.html
-      output: web, pdf
+                - title: Panels
+                  url: /pandas_Panels.html
+                  output: web, pdf
 
-    - title: Panels
-      url: /pandas_Panels.html
-      output: web, pdf
+                - title: Input And Output
+                  url: /pandas_InputAnd_Output.html
+                  output: web, pdf
 
-    - title: Input And Output
-      url: /pandas_InputAnd_Output.html
-      output: web, pdf
+          - title: numpy
+            output: web, pdf
+            folderitems:
+                - title: numpy Basic
+                  url: /numpy_basic.html
+                  output: web, pdf
 
+                - title: 100 numpy exercises
+                  url: /Numpy_100_exercises.html
+                  output: web, pdf
 
-  - title: numpy
-    output: web, pdf
-    folderitems:
+                - title: 100 numpy exercises with hints
+                  url: /Numpy_100_exercises_with_hints.html
+                  output: web, pdf
 
-    - title: numpy Basic
-      url: /numpy_basic.html
-      output: web, pdf
+                - title: 100 numpy exercises with solutions
+                  url: /Numpy_100_exercises_with_solutions.html
+                  output: web, pdf
 
+                - title: 100 numpy exercises solutions with hints
+                  url: /Numpy_100_exercises_solutions_with_hints.html
+                  output: web, pdf
 
-    - title : 100 numpy exercises
-      url: /Numpy_100_exercises.html
-      output: web, pdf
+          - title: Data Visualization
+            output: web, pdf
+            folderitems:
+                - title: seaborn পুঁথি
+                  url: /visualization_seaborn.html
+                  output: web, pdf
 
-    - title : 100 numpy exercises with hints
-      url: /Numpy_100_exercises_with_hints.html
-      output: web, pdf
+            # - title: matplotlib essentials Demo
+            #   url: /visualization_matplotlib_pyplot.html
+            #   output: web, pdf
 
+          - title: checksum or serialization
+            output: web, pdf
+            folderitems:
+                - title: Pickle পুঁথি
+                  url: /pickel.html
+                  output: web, pdf
 
-    - title : 100 numpy exercises with solutions
-      url: /Numpy_100_exercises_with_solutions.html
-      output: web, pdf
+                - title: joblib পুঁথি
+                  url: /joblib.html
+                  output: web, pdf
 
-    - title : 100 numpy exercises solutions with hints
-      url: /Numpy_100_exercises_solutions_with_hints.html
-      output: web, pdf
+          - title: Git
+            output: web, pdf
+            folderitems:
+                - title: Git এবং github পুঁথি
+                  url: /git_cheetsheet.html
+                  output: web, pdf
 
+                - title: git describe by M.M.H.Masud
+                  url: /git_discribe.html
+                  output: web, pdf
 
+          - title: Django
+            output: web, pdf
+            folderitems:
+                - title: Django পুঁথি
+                  url: /django_cheetsheet.html
+                  output: web, pdf
 
-  - title: Data Visualization
-    output: web, pdf
-    folderitems:
+                - title: Django REST framework পুঁথি
+                  url: /django_rest-framework.html
+                  output: web, pdf
 
-    - title: seaborn পুঁথি
-      url: /visualization_seaborn.html
-      output: web, pdf
+                - title: Coming Soon
+                  url: /commingSoon.html
+                  output: web, pdf
 
-    # - title: matplotlib essentials Demo 
-    #   url: /visualization_matplotlib_pyplot.html
-    #   output: web, pdf      
+          - title: DataBase
+            output: web, pdf
+            folderitems:
+                - title: PostgreSQL পুঁথি (Terminal)
+                  url: /postgreSQL_cheetsheet.html
+                  output: web, pdf
 
-  
+                - title: PostgreSQL+pgAdmin4 পুঁথি (Debian)
+                  url: /postgreSQL_basic_linux.html
+                  output: web, pdf
 
+          - title: Virtualization
+            output: web, pdf
+            folderitems:
+                - title: Python virtualization
+                  url: /virtualization_py_environment.html
+                  output: web, pdf
 
-  - title: checksum or serialization
-    output: web, pdf
-    folderitems:
+                - title: Vargant পুঁথি
+                  url: /virtualization_Vargant.html
+                  output: web, pdf
 
-    - title: Pickle পুঁথি
-      url: /pickel.html
-      output: web, pdf
-
-    - title: joblib পুঁথি
-      url: /joblib.html
-      output: web, pdf
-
-  - title: Git
-    output: web, pdf
-    folderitems:
-
-    - title: Git এবং github পুঁথি
-      url: /git_cheetsheet.html
-      output: web, pdf
-
-    - title: git describe by M.M.H.Masud
-      url: /git_discribe.html
-      output: web, pdf
-
-
-  - title: Django
-    output: web, pdf
-    folderitems:
-
-    - title: Django পুঁথি
-      url: /django_cheetsheet.html
-      output: web, pdf
-
-    - title: Django REST framework পুঁথি
-      url: /django_rest-framework.html
-      output: web, pdf      
-
-
-    - title: PostgreSQL+pgAdmin4 পুঁথি linux
-      url: /postgreSQL_basic_linux.html
-      output: web, pdf
-
-
-    - title: Coming Soon
-      url: /commingSoon.html
-      output: web, pdf
-
-
-  - title: Virtualization
-    output: web, pdf
-    folderitems:
-
-    - title: Python virtualization
-      url: /virtualization_py_environment.html
-      output: web, pdf
-
-    - title: Vargant পুঁথি
-      url: /virtualization_Vargant.html
-      output: web, pdf
-
-    - title: Docker পুঁথি
-      url: /virtualization_docker.html
-      output: web, pdf
-
-
-
+                - title: Docker পুঁথি
+                  url: /virtualization_docker.html
+                  output: web, pdf

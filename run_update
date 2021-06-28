@@ -4,3 +4,4 @@ bundle update
 
 bundle exec jekyll serve
 
+PATH=$PATH:/home/monadwiz/.local/share/gem/ruby/3.0.0/bin
