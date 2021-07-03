@@ -806,9 +806,9 @@ ol.series li {
     border-color: #248ec2 !important;
 }
 
-#mysidebar .nav ul li {
+/* #mysidebar .nav ul li {
     background-color: #192734;
-}
+} */
 
 .nav ul.series li {
     list-style: decimal;
