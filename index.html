@@ -10,13 +10,26 @@ summary: The wise monkey says that you can be the better version of you.
 
 <style>
     .wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-        ggrid-auto-flow: column;
-        grid-auto-columns: 300px 100px;
+        display: grid; /* div gulo pasha pashi anar jonno */
+        gap: 10px;
         width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+
     }
+
+    @media (max-width: 992px) {
+        .wrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 688px) {
+        .wrapper {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+    }
+
 
     <span style="background: #a9df9e;">
 </style>
@@ -74,7 +87,7 @@ summary: The wise monkey says that you can be the better version of you.
                             bangla Blog posts topic are:
                         </h2>
                     </div>
-                    <div class="col-md-4 wrapper">
+                    <div class="wrapper">
                         <a href="pandas_series.html">
                             <div class="Pandas">
                                 <div class="media-body">
@@ -259,9 +272,6 @@ summary: The wise monkey says that you can be the better version of you.
                             </div>
                         </a>
 
-
-
-
                         <a href="pacman.html">
                             <div class="linux">
                                 <div class="media-body">
@@ -277,16 +287,12 @@ summary: The wise monkey says that you can be the better version of you.
                                         </span>
                                     </h4>
                                     <p>
-                                        Linux প্রতিনিয়িত প্রয়োজন এমন কিছু 
-                                        topics এবং cheat-sheet নিয়ে এই portion টি তৈরি। 
+                                        Linux প্রতিনিয়িত প্রয়োজন এমন কিছু topics
+                                        এবং cheat-sheet নিয়ে এই portion টি তৈরি।
                                     </p>
                                 </div>
                             </div>
                         </a>
-
-
-
-
                     </div>
                 </div>
             </div>
