@@ -153,3 +153,10 @@ entries:
                 - title: Docker পুঁথি
                   url: /virtualization_docker.html
                   output: web, pdf
+
+          - title: Linux Cheat-sheets
+            output: web, pdf
+            folderitems:
+                - title: pacman পুঁথি
+                  url: /pacman.html
+                  output: web, pdf
