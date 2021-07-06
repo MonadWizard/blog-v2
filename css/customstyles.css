@@ -3,6 +3,18 @@ body {
     background-color: #192734;
 }
 
+
+.highlight {
+    background: #7cbbad21;
+    color: #ffdfd2;
+}
+
+
+.dropdown-menu{
+    background-color: #2c2c49a8;
+}
+
+
 a {
     color: rgb(168, 214, 168);
 }
@@ -396,7 +408,7 @@ a.accordion-collapsed {
 .nav a:hover,
 .nav li.active > a {
     background-color: #8d8d8d;
-    color: #f5f5f5;
+    color: #202c23;
 }
 
 .nav > li.active > a {
@@ -407,7 +419,14 @@ a.accordion-collapsed {
     font-size: 12px;
     line-height: 18px;
     padding: 2px 10px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f15e;
+    color: #eefdd6;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: #000000;
 }
 
 .nav > li > a {
@@ -432,7 +451,8 @@ ul#mysidebar {
 }
 
 .nav ul li a {
-    background-color: #fafafa;
+    background-color: #0606061c;
+    color: rgb(244, 253, 108);
 }
 
 .nav li a {

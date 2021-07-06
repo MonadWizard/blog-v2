@@ -87,10 +87,6 @@ entries:
                   url: /visualization_seaborn.html
                   output: web, pdf
 
-            # - title: matplotlib essentials Demo
-            #   url: /visualization_matplotlib_pyplot.html
-            #   output: web, pdf
-
           - title: checksum or serialization
             output: web, pdf
             folderitems:
