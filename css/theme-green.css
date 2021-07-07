@@ -29,7 +29,7 @@ b {
 }
 
 #myTab li {
-    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px rgb(28, 26, 48);
 }
 
 #myTab li a {
@@ -49,11 +49,11 @@ b {
 }
 
 .nav > li.active > a {
-    background-color: #72ac4a;
+    background-image: linear-gradient(20deg, #192734, #075f42);
 }
 
 .nav > li > a:hover {
-    background-color: #72ac4a;
+    background-image: linear-gradient(60deg, #0b132e, #075f42);
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
@@ -83,8 +83,8 @@ a[data-toggle='tooltip'] {
 }
 
 .navbar-inverse {
-    background-color: #72ac4a;
-    border-color: #5b893c;
+    border-image: linear-gradient(20deg, #f106d2, #fff236);
+    background-image: linear-gradient(20deg, #72ac4a, #075f42);
 }
 
 .navbar-inverse .navbar-nav > .open > a,
