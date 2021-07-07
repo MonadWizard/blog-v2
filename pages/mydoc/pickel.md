@@ -32,7 +32,7 @@ c programming language এ  <font color="green"> cPickle </font> use করা �
 
 নিচে কত বৎসর অভিজ্ঞতা এর কর্মী এর বেতন কত হওয়া উচিৎ তা একটা simple linear Regression এ data-set ব্যবহার করে predict করা হয়েছে। এই code এর train-data pickling এর দ্বারা file এ store করে  store-data unpickling করে predict করে দেখব।
 
- <font color="blue"> DATA SET: </font> 
+ <font color="Salmon"> DATA SET: </font> 
 
 ![image](https://drive.google.com/uc?export=view&id=1r0m0v0fuLbATzR1P9JfOLtp3BtxMnVbU)
 
@@ -51,7 +51,7 @@ model.fit(data[["YearsExperience"]],data["Salary"])
 # predict data
 model.predict([[60000]])
 ```
-<font color="blue"> OUTPUT: 5.67023531e+08</font>
+<font color="Salmon"> OUTPUT: 5.67023531e+08</font>
 
 
 

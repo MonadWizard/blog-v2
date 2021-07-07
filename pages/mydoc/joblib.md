@@ -33,7 +33,7 @@ model.predict([[60000]])
 
 
 
-<font color="blue"> Output: </font> 
+<font color="Salmon"> Output: </font> 
 
 
 
@@ -62,7 +62,7 @@ joblib.dump(model, 'model_joblib')
 
 
 
-<font color="blue"> Output: </font> 
+<font color="Salmon"> Output: </font> 
 
 
 
@@ -100,7 +100,7 @@ joblib.dump(model, 'model_joblib')
 
 
 
-<font color="blue"> Output: </font> 
+<font color="Salmon"> Output: </font> 
 
 
 
@@ -134,7 +134,7 @@ loadModel.predict([[60000]])
 
 
 
-<font color="blue"> Output: </font> 
+<font color="Salmon"> Output: </font> 
 
 
 
@@ -177,7 +177,7 @@ loadModel.predict([[60000]])
 
 
 
-<font color="blue"> Output: </font> 
+<font color="Salmon"> Output: </font> 
 
 
 

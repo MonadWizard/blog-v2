@@ -115,7 +115,7 @@ print(s)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
 |   |    |
@@ -156,7 +156,7 @@ print("series2", ser2)
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 series1 
 
@@ -203,7 +203,7 @@ print(s2)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
  
 |   |    |
@@ -241,7 +241,7 @@ print(s3)
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
 |   |    |
@@ -280,7 +280,7 @@ print(s3.dtype)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
  
     ['An animal' 'A color' 'None']
@@ -323,7 +323,7 @@ print(ser.max())
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
  
 
     10
@@ -371,7 +371,7 @@ print(s6,"\n")
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
  
 
 |   |    |
@@ -461,7 +461,7 @@ print("beton2: "type(beton2))
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     salary: <class 'pandas.core.frame.DataFrame'>
     beton: <class 'pandas.core.series.Series'>
@@ -494,7 +494,7 @@ print(beton2.head(3))
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
  
 | |YearsExperience   |   Salary |
@@ -591,7 +591,7 @@ print(beton.is_unique) # boolen compare unique value
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     True
 
@@ -609,7 +609,7 @@ print(beton2.is_unique) # boolen compare unique value
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
     AttributeError: 'DataFrame' object has no attribute 'is_unique'
@@ -635,7 +635,7 @@ print(beton2.ndim)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
     1 
@@ -664,7 +664,7 @@ print(beton2.shape)
 
 ```
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     (30,)
     (30, 2)
@@ -696,7 +696,7 @@ print(beton2.size)
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     30
     60 
@@ -725,7 +725,7 @@ print(beton.sort_values(ascending = False).tail(3))     # descending ordered
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
  
 | |YearsExperience   |   Salary |
 | --------- | ----------- | ------ |
@@ -782,7 +782,7 @@ print(salary2)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
  
 
 | |   |
@@ -844,7 +844,7 @@ print(salary2)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
  
 | |   |
@@ -903,7 +903,7 @@ print(2 in salary2)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
  
 
 | |   |
@@ -948,7 +948,7 @@ print(salaryy)
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
  Salary
@@ -991,7 +991,7 @@ print(salaryy.get(key = 200 , default = "This is not a salary"),"\n")
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
  Salary
@@ -1046,7 +1046,7 @@ print(salaryy.count())
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     9
 
@@ -1066,7 +1066,7 @@ print(len(salaryy))
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     10
 
@@ -1086,7 +1086,7 @@ print(salaryy.sum())
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     349.0
 
@@ -1107,7 +1107,7 @@ print(salaryy.mean())
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     38.77777777777778
 
@@ -1129,7 +1129,7 @@ print(salaryy.std())
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     7.693792591722527
 
@@ -1151,7 +1151,7 @@ print(salaryy.min())
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     27.0
 
@@ -1173,7 +1173,7 @@ print(salaryy.max())
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     50.0
 
@@ -1200,7 +1200,7 @@ print(salaryy.median()) # give mid point value
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     38.0
 
@@ -1227,7 +1227,7 @@ print(salaryy.mode())
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 | |   |
 | --------- | ----------- |
@@ -1265,7 +1265,7 @@ print(salaryy.describe())
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 | |   |
 | --------- | ----------- |
@@ -1310,7 +1310,7 @@ print(salaryy[salaryy.idxmin()])  # together 2[1]
 
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
     50.0
     83000.0
@@ -1342,7 +1342,7 @@ print(salaryy.count())  # same as sum of value_counts()
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 | |   |
 | --------- | ----------- |
@@ -1382,7 +1382,7 @@ salaryy.apply(lambda age : age * 100)
 
 ```
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
  Salary
@@ -1427,7 +1427,7 @@ print(age.map(salary))
 ```
 
 
- <font color="blue"> OUTPUT: </font> 
+ <font color="Salmon"> OUTPUT: </font> 
 
 
 Age

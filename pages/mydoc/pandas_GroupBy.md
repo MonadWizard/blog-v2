@@ -20,7 +20,7 @@ common value গুলোকে আলাদা column এ পৃথক কর�
 
 fortune নাম এর ১০০০ company এর information সহ একটা data-set থেকে fortune নাম এর একটা data-frame তৈরি করা হয়েছে। এখন ঐ data-frame থেকে sector column টাকে আলাদা একটা group বানানো হয়েছে।  
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -49,7 +49,7 @@ fortune["Sector"].value_counts()  # there are 21 sector , we see
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -107,7 +107,7 @@ data-set এর যে সব label এ repeated value থাকে সেই �
 
 আমরা .groups ব্যবহার করে index_number নিতে পারি। যা dataFrame.loc[index_number] এ ব্যবহার করে ঐ index এর সব data পাইতে পারি। 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -137,7 +137,7 @@ fortune.loc[24] # here sector which is group object, that match with 1st key
 ```
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -202,7 +202,7 @@ fortune.loc[24] # here sector which is group object, that match with 1st key
 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -227,7 +227,7 @@ tec.head(5)
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -332,7 +332,7 @@ groupby দ্বারা specific label আলাদা করে নিয়ে
 
 আমরা আমাদের প্রতিটি group এর under এ যে valueটি maximum বা minimum কিংবা প্রতিটি group এর numerical value নিয়ে arithmatic operation করতে পারি। 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -364,7 +364,7 @@ sectors[["Employees", "Profits"]].sum()
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -517,7 +517,7 @@ sectors[["Employees", "Profits"]].sum()
 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 
@@ -541,7 +541,7 @@ sectors["Revenue"].sum()
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -579,7 +579,7 @@ sectors["Revenue"].sum()
 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -602,7 +602,7 @@ a
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 
@@ -922,7 +922,7 @@ a
 আমাদের data-set এ যে ১০০০ company এর data আছে টার মধ্যে প্রতিটি sector এ highest revenue যে company এর তা বাহির করার try করে দেখি। 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -957,7 +957,7 @@ df2
 
 
 
-<font color="blue"> Output: </font>
+<font color="Salmon"> Output: </font>
 
 
 

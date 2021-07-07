@@ -9,6 +9,10 @@ body {
     color: #ffdfd2;
 }
 
+.highlight .nn{
+    color: #ddf3d4;
+}
+
 
 .dropdown-menu{
     background-color: #2c2c49a8;

@@ -45,7 +45,7 @@ print("display all columns:\t", cm.columns,"\n")
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 
     display all columns:     Index(['RowNumber', 'CustomerId', 'Surname', 'CreditScore', 'Geography','Gender', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary', 'Exited'],dtype='object') 
@@ -68,7 +68,7 @@ print("display all index:\t", cm.index,"\n")
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 
     display all index:       RangeIndex(start=0, stop=10000, step=1) 
@@ -93,7 +93,7 @@ print("total columns length:\t", len(cm.columns),"\n")
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 
     total index length:      10000 
@@ -119,7 +119,7 @@ print("Rows, Columns:\t", cm.shape)
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 
     Rows, Columns:   (10000, 14)
@@ -146,7 +146,7 @@ print("DataType:\n", cm.dtypes)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 DataType:
 
@@ -189,7 +189,7 @@ print("Rows, Columns:\n", cm.axes)   # RangeIndex is  row , Index([colunms]) is 
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
     Rows, Columns:
     [RangeIndex(start=0, stop=10000, step=1), Index(['RowNumber', 'CustomerId', 'Surname', 'CreditScore', 'Geography', 'Gender', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary', 'Exited'],
@@ -217,7 +217,7 @@ print("Summery:\n", cm.info())  # most usefull......
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 DataType:
 
@@ -265,7 +265,7 @@ print(cm.sum(0)) # 0 means row
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 |  |   |
 |-----------|---------
@@ -306,7 +306,7 @@ print(cm.sum(1)) # 1 means column
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 |   |    |
 |-----------|---------
@@ -345,7 +345,7 @@ print(cm["Balance"].head())
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 |   |    |
 |-----------|---------
@@ -380,7 +380,7 @@ print(type(cm["Balance"]))
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 ```
     <class 'pandas.core.series.Series'>
 
@@ -402,7 +402,7 @@ print(type(cm[["Surname","Balance"]]))
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 |  | Surname  | Balance   |
 |-----------|---------|------|
@@ -438,7 +438,7 @@ print(cm)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 
 |  | RowNumber  | CustomerId   | ... | Exited | new_row |
@@ -505,7 +505,7 @@ print(cm.head())
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 for add 10 : 
 
@@ -538,7 +538,7 @@ print(cm["Gender"].value_counts())
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -603,7 +603,7 @@ print(salary.dropna(axis = 1)) # remove full Column if any null values happend
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -692,7 +692,7 @@ print(salary["Purchased"].nunique())
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -740,7 +740,7 @@ print(salary.info())
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -793,7 +793,7 @@ print(salary.sort_values("Country", na_position = "first"))  # or na_position = 
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -832,7 +832,7 @@ print(df)
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -880,7 +880,7 @@ print(df.info())    # now memory usage: 41.2+ KB
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -944,7 +944,7 @@ print(df[(df["Gender"] == "Male") & (df["Senior Management"])])
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -991,7 +991,7 @@ print(df[teamm])
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1048,7 +1048,7 @@ print(not_null_dfram)
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1087,7 +1087,7 @@ print(df_sal)
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1124,7 +1124,7 @@ print(df.head(5))
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1182,7 +1182,7 @@ df[~df["First Name"].duplicated(keep = False)]      # ~ make reverse boolen data
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1231,7 +1231,7 @@ print(df.head(5))
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1275,7 +1275,7 @@ df["Team"].nunique(dropna = False)
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1335,7 +1335,7 @@ print(bond.head(3))
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1406,7 +1406,7 @@ print(bond.iloc[[0,3]])
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1465,7 +1465,7 @@ bond.ix[["Sacred Bond", "Spectre" ]]   # make Nan row with index Sacred Bond
 
 ```
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1510,7 +1510,7 @@ bond.iloc[1, [1 ,6]]
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
     use print method to see every execution 
@@ -1562,7 +1562,7 @@ print(bond.loc["Dr. No"])
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1609,7 +1609,7 @@ bond[bond["Actor"] == "Roger Moore"]
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1664,7 +1664,7 @@ print(bond.head(3))
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1719,7 +1719,7 @@ print(bond.head(3))
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1769,7 +1769,7 @@ bond.sample(n = 3, axis = "columns") # give 3 random columns from bond
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1820,7 +1820,7 @@ bond["Year"].nsmallest(2)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1871,7 +1871,7 @@ b3 = bond.where(bond["Year"] > 2000)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1932,7 +1932,7 @@ print(add)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -1991,7 +1991,7 @@ print(bond[col])
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -2048,7 +2048,7 @@ bond.apply(good_movie, axis = "columns")
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 
@@ -2088,7 +2088,7 @@ directors.head(3)
 ```
 
 
-<font color="blue"> output </font>
+<font color="Salmon"> output </font>
 
 ```
 

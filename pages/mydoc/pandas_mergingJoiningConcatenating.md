@@ -28,7 +28,7 @@ folder: mydoc
 
 <font color="green"> pandas.concat(objs, keys, names, ignore_index) </font>
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -66,7 +66,7 @@ sales.head()
 ```
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -139,7 +139,7 @@ sales.head()
 
 <font color="green"> dataFrame1.append(dataFrame2, ignore_index=True) </font>
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -157,7 +157,7 @@ week1_2.head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -230,7 +230,7 @@ pandas কে merge method দ্বারা call করে signuture গুল
 same type এর যে কোন label দ্বারা index define করে merge data কে compare করা যায়। 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -247,7 +247,7 @@ mergeData.head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -350,7 +350,7 @@ by-Default left_index এবং right_index এর মান False থাকে,
 * right DataFrame এর index হিসেবে যদি right DataFrame এর index ব্যবহার করা হয় তবে right_index = True দিতে হবে।  unless দিতে হবে না।
 *  merge data চেনার জন্য যদি specific data-frame এর সকল label এর সঙ্ঘে specific কোন word add করতে চাই তা হইলে suffixes parameter ব্যবহার করতে হবে। 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -383,7 +383,7 @@ week1.merge(week2, how = "left", left_index = True, right_index = True, suffixes
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -501,9 +501,9 @@ week1.merge(week2, how = "left", left_index = True, right_index = True, suffixes
 ### .join() Method
 
 .merge() method এর মত .join() method ব্যবহার করে আমরা ২টি data-frame কে একটি data-frame এ রূপান্তর করতে পারি। 
-সাধারণত <font color="blue"> leftDataFrame.join(rightDataFrame) </font> ব্যবহার করে পাশাপাশি 2 টি DataFrame কে join করা যায়। 
+সাধারণত <font color="Salmon"> leftDataFrame.join(rightDataFrame) </font> ব্যবহার করে পাশাপাশি 2 টি DataFrame কে join করা যায়। 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -521,7 +521,7 @@ week1.join(satisfaction).head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -600,7 +600,7 @@ join করার সময় notice করতে হবে যেন ২ টা d
 <font color="green"> leftDataFrame.merge(rightDataFrame, how="inner", left_on, right_on, left_index, right_index, suffixes=["lastNameForLeft", "LastNameForRight"]) </font>
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -630,7 +630,7 @@ week1.merge(week2, how = "inner", on = ["Customer ID", "Food ID"]).head(4)
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -694,7 +694,7 @@ inner join এর similar. just how="outer"
 <font color="green"> leftDataFrame.merge(rightDataFrame, how="outer", left_on, right_on, left_index, right_index, suffixes=["lastNameForLeft", "LastNameForRight"]) </font>
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -732,7 +732,7 @@ marged["_merge"].value_counts()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -753,7 +753,7 @@ how = "left" ব্যবহার করে বাকি সব same.
 
 just আপনাদের join বাপার টার visual flow মনে রাখতে হবে এবং কেন কোন merge ব্যবহার করবেন টা নিশ্চিত করতে হবে।  
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -776,7 +776,7 @@ buy.head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -855,7 +855,7 @@ how = "right" ব্যবহার করে বাকি সব same.
 
 just আপনাদের join বাপার টার visual flow মনে রাখতে হবে এবং কেন কোন merge ব্যবহার করবেন টা নিশ্চিত করতে হবে।  
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -880,7 +880,7 @@ buy.head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -958,7 +958,7 @@ buy.head()
 
 যদি merged data-frame এ অপ্রয়োজনীয় label এবং data থাকে তা হইলে .drop() method ব্যবহার করব। 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 <mark> 
 When marged column have not same name then we cann't work with previous marge or join system.
@@ -990,7 +990,7 @@ week2CustomerDemo.head()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 

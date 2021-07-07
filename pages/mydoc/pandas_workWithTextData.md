@@ -50,7 +50,7 @@ chicago.info()
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -76,7 +76,7 @@ chicago["Name"]
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -104,7 +104,7 @@ chicago["Department"]
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -132,7 +132,7 @@ chicago["Position Title"]
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -160,7 +160,7 @@ chicago["Position Title"].str.len()
 
 ```
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -188,7 +188,7 @@ print(len(chicago["Position Title"]))
 
 ```
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
     32062
@@ -221,7 +221,7 @@ print("\n after : \n \n ",chicago["Department"])  # after change
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -295,7 +295,7 @@ print("\n \n if found ist in last in  Position Title: \n \n \n" , chicago[chicag
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -434,7 +434,7 @@ print("\n \n \n use strip() : \n \n \n", chicago["Position Title"])
 ```
 
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -513,7 +513,7 @@ print(lastName)
 
 ```
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
 
@@ -555,7 +555,7 @@ print("\n \n \n take first part of last Name \n \n \n", chicago["Name"].str.spli
 print("\n \n count last Name's first part \n \n \n", chicago["Name"].str.split(",").str.get(1).str.strip().str.split(" ").str.get(0).value_counts().head(7))
 ```
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
                     Name    Position Title   Department Employee Annual Salary
@@ -617,7 +617,7 @@ chicago[["First Name", "Last Name"]] = chicago["Name"].str.split(",", expand=Tru
 chicago.head()
 ```
 
-<font color="blue"> Output </font>
+<font color="Salmon"> Output </font>
 
 
                    0              1

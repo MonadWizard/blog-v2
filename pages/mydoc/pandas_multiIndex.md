@@ -26,7 +26,7 @@ folder: mydoc
 এবং <font color="green"> type(dataFrame.index) </font> ব্যবহার করে Data Type দেখতে পাই MultiIndex। 
 
 
-<font color="blue"> Example: </font>
+<font color="Salmon"> Example: </font>
 
 
 ```python
@@ -54,7 +54,7 @@ type(bigmac.index)
 ```
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -74,7 +74,7 @@ multi index এর ক্ষেত্রে যদি আমাদের specifi
 
 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -96,7 +96,7 @@ bigmac.index.get_level_values("Date")
 
 ```
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -118,7 +118,7 @@ bigmac.index.get_level_values("Date")
 যদি আমরা কোন label's name পরিবর্তন করতে না চাই তা হইলে আমরা label টার যে নাম আছে তাই New Name এ ব্যবহার করব।
 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -135,7 +135,7 @@ bigmac.head(3)
 
 ```
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -192,7 +192,7 @@ bigmac.head(3)
 
 multi index এ label value গুলো যদি random order বা custom order এ sort করতে চাই তা হইলে আমাদের ascinding = True বা ascinding = False(decending) define করতে হবে। একটা list এর দ্বারা সকল index এর sort type define boolen formate এ define করা যায়। <font color="green"> dataFrame.sort_index(ascending = [boolen, boolen]) </font> দ্বারা define করা হয়। 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -211,7 +211,7 @@ bigmac.head()
 ```
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -278,7 +278,7 @@ bigmac.head()
 
 *NOTE: 'ix' pandas 1.0.0 থেকে remove করে দেওয়া হয়েছে , পূর্বের version গুলোতে কাজ করে। install previous version যদি .ix[] use করতে হয়। conda install pandas=0.25.1*
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -307,7 +307,7 @@ bigmac.loc[("2010-01-01","China"), "Price in US Dollars"] # all data inside "201
 ```
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -322,7 +322,7 @@ bigmac.loc[("2010-01-01","China"), "Price in US Dollars"] # all data inside "201
 
 আমরা যদি row এবং column এর axis পরিবর্তন করতে চাই বা data-frame টাকে vertical axis থেকে horizontal axis বানাইতে চাই তা হইলে <font color="green"> dataframe.transpose() </font> ব্যবহার করে তা করতে পারি। 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -342,7 +342,7 @@ bigmac.head(3)
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -428,9 +428,9 @@ bigmac.head(3)
 
 ### .swaplevel() Method
 
-প্রয়োজনে multi Index এ inner label আর outer label column গুলো exchange করতে পারি। <font color="blue"> dataFrame.swaplevel() </font> ব্যবহার করে inner label কে outer label আর outer label কে inner label এ পরিণত করা যায়। 
+প্রয়োজনে multi Index এ inner label আর outer label column গুলো exchange করতে পারি। <font color="Salmon"> dataFrame.swaplevel() </font> ব্যবহার করে inner label কে outer label আর outer label কে inner label এ পরিণত করা যায়। 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -448,7 +448,7 @@ bigmac.head(3)
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -508,7 +508,7 @@ data-frame এর প্রতিটা index label value এর জন্য �
 আমরা একটি index value এর জন্য অন্য সব label value এর মান তারপর next index value এর জন্য অন্য সব label value এর মান এইভাবে পর্যায়ক্রমে data সাজিয়া data-frame বানানর জন্য .stack() method ব্যবহার করতে পারি। 
 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -529,7 +529,7 @@ a.to_frame()
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -629,7 +629,7 @@ a.to_frame()
 
 আমরা যে কোন stack customize data কে unstack করে segmentation করার জন্য <font color="green"> dataFrame.unstack()</font>  ব্যবহার করা হয়।
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -682,7 +682,7 @@ print(s)
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -1042,7 +1042,7 @@ print(s)
  * columns এ যে label এ repeated value আছে বা যে label এর মানগুলোকে new label বানাইতে চাই তা দিব। 
  * আর values এ আমরা new columns গুলো এর মান যে label থেকে হবে তা define করব।  
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -1059,7 +1059,7 @@ sales.pivot(index = "Date", columns = "Salesman", values = "Revenue")
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -1198,7 +1198,7 @@ sales.pivot(index = "Date", columns = "Salesman", values = "Revenue")
 .pivot_table() method টা অনেকটা .pivot() method এর মত। .pivot_table() method এ অতিরিক্ত parameter হিসেবে aggfunc আছে, যা একটা label এর সমস্ত data গুলোকে নিয়ে, Arithmetic Operators করে থাকে। 
 values label এর aggfunc হয়ে থাকে। 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -1220,7 +1220,7 @@ foods.pivot_table(values = "Spend", index = ["Gender","Item"],columns = "City", 
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
@@ -1348,7 +1348,7 @@ foods.pivot_table(values = "Spend", index = ["Gender","Item"],columns = "City", 
 * value_name এ একটা নাম দিব যা একটা new label এর নাম হবে এবং এর মান গুলো var_name এর মান হবে। 
 
 
-<font color="blue"> Example </font>
+<font color="Salmon"> Example </font>
 
 
 ```python
@@ -1367,7 +1367,7 @@ pd.melt(sales, id_vars = "Salesman", var_name = "Quarter", value_name = "Revenue
 
 
 
-<font color="blue"> OUTPUT: </font>
+<font color="Salmon"> OUTPUT: </font>
 
 
 
