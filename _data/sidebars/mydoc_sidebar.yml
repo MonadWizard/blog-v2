@@ -127,12 +127,12 @@ entries:
           - title: DataBase
             output: web, pdf
             folderitems:
-                - title: PostgreSQL পুঁথি (Terminal)
+                - title: postgreSQL পুঁথি (Terminal)
                   url: /postgreSQL_cheetsheet.html
                   output: web, pdf
 
-                - title: PostgreSQL+pgAdmin4 পুঁথি (Debian)
-                  url: /postgreSQL_basic_linux.html
+                - title: mySQL পুঁথি (Terminal)
+                  url: /mySQL_cheetsheet.html
                   output: web, pdf
 
           - title: Virtualization
