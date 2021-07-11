@@ -145,8 +145,20 @@ It is very handy if you can type the command in your favorite editor. To do this
 
 After you type the command in the editor, save it, and close the editor, psql will execute the command and return the result.
 
+### Drop a database that has no active connection
+
+```
+    DROP DATABASE database_name;
+```
+
 ### Quit psql
 
 ```
     \q
+```
+
+necessary Library might need to be install for wotk with postgreSQL
+
+```
+
 ```
