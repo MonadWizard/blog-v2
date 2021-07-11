@@ -9,7 +9,7 @@ permalink: postgreSQL_cheetsheet.html
 folder: mydoc
 ---
 
-PostgreSQL cheet-sheet 😸
+PostgreSQL cheat-sheet 😸
 
 ## Connection
 
