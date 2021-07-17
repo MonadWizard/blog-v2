@@ -1,7 +1,9 @@
 #!/bin/bash
 
-bundle update
+# bundle update
+bundler-2.7 update
 
-bundle exec jekyll serve
+# bundle exec jekyll serve
+bundler-2.7 exec jekyll serve
 
-PATH=$PATH:/home/monadwiz/.local/share/gem/ruby/3.0.0/bin
+# PATH=$PATH:/home/monadwiz/.local/share/gem/ruby/3.0.0/bin
