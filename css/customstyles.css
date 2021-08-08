@@ -3,21 +3,23 @@ body {
     background-color: #192734;
 }
 
-
 .highlight {
     background: #7cbbad21;
     color: #ffdfd2;
 }
 
-.highlight .nn{
+.highlight .nn {
     color: #ddf3d4;
 }
 
-
-.dropdown-menu{
-    background-color: #2c2c49a8;
+.highlight .nc {
+    color: #7f8844;
+    font-weight: bold;
 }
 
+.dropdown-menu {
+    background-color: #2c2c49a8;
+}
 
 a {
     color: rgb(168, 214, 168);
@@ -435,7 +437,6 @@ a.accordion-collapsed {
     color: #eefdd6;
 }
 
-
 .nav > li > a:focus,
 .nav > li > a:hover {
     text-decoration: none;
@@ -445,7 +446,6 @@ a.accordion-collapsed {
 .nav > li.active > a {
     color: white;
 }
-
 
 .nav > li > a {
     font-size: 14px;
@@ -1001,7 +1001,6 @@ span.soft {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: rgb(15, 14, 14);
         font-weight: bold;
-
     }
 }
 
