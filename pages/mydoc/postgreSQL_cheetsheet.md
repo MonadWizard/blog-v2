@@ -59,6 +59,26 @@ alter user <username> with encrypted password '<password>';
 grant all privileges on database <dbname> to <username> ;
 ```
 
+#### view all users
+
+```
+\du
+```
+
+#### give user specific roles
+
+-   give super User roles
+
+```
+ALTER USER demo WITH SUPERUSER;
+```
+
+-   give create database roles
+
+```
+ALTER USER demo WITH CreateDB;
+```
+
 ### you may, for some reason want to do it purely via psql, then these are the three magic commands
 
 ```
