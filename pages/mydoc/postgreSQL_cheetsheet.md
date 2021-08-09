@@ -19,6 +19,12 @@ PostgreSQL cheat-sheet 😸
 sudo -u postgres psql
 ```
 
+#### alter postgres user password
+
+```
+ALTER USER postgres PASSWORD 'root';
+```
+
 #### যদি specific user as (postgres) এবং specific DataBase as (db_demo) ব্যবহার করে connect করতে চাই তাহলে
 
 ```
@@ -116,6 +122,14 @@ create database newdb;
 
 ```
 \l
+```
+
+#### create database with specific user
+
+এখানে specific user "demo" & new data-base "demobd"
+
+```
+CREATE DATABASE demodb OWNER demo;
 ```
 
 #### connected to existing DataBase named newdb by
