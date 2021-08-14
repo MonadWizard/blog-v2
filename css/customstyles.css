@@ -3,6 +3,18 @@ body {
     background-color: #192734;
 }
 
+
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #addd53;
+    background-color: #f9f2f400;
+    border-radius: 4px;
+}
+
+
+
 .highlight {
     background: #7cbbad21;
     color: #ffdfd2;
