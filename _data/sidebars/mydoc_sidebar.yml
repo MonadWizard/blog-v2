@@ -157,10 +157,13 @@ entries:
                   url: /pacman.html
                   output: web, pdf
 
+                - title: vim (vi) পুঁথি
+                  url: /vim_cheatsheet.html
+                  output: web, pdf
+
           - title: Scraping Libraries
             output: web, pdf
             folderitems:
                 - title: RegEx পুঁথি
                   url: /regex_cheatsheet.html
                   output: web, pdf
-
