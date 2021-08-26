@@ -3,7 +3,7 @@ title: Django REST framework example
 keywords: Django REST Bangla Tutorials, bangla REST Django, Bangla Python, Blog Bangla, Monad wizard
 last_updated: July 20, 2020
 # tags: [getting_started]
-summary: 'Here I try to complete all Basic Django Topic with short note. '
+summary: 'Basic Django REST Framework Topic with short note. '
 sidebar: mydoc_sidebar
 permalink: django_rest-framework.html
 folder: mydoc

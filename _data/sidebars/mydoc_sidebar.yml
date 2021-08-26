@@ -116,12 +116,35 @@ entries:
                   url: /django_cheetsheet.html
                   output: web, pdf
 
+                - title: Coming Soon
+                  url: /commingSoon.html
+                  output: web, pdf
+
+          - title: Django REST
+            output: web, pdf
+            folderitems:
                 - title: Django REST framework পুঁথি
                   url: /django_rest-framework.html
                   output: web, pdf
 
-                - title: Coming Soon
-                  url: /commingSoon.html
+                - title: Function Based Views
+                  url: /drf_fbv.html
+                  output: web, pdf
+
+                - title: Class Based Views
+                  url: /drf_cbv.html
+                  output: web, pdf
+
+                - title: Mixins
+                  url: /drf_mixins.html
+                  output: web, pdf
+
+                - title: Generic views
+                  url: /drf_genericViews.html
+                  output: web, pdf
+
+                - title: ViewSets
+                  url: /drf_viewsets.html
                   output: web, pdf
 
           - title: DataBase
