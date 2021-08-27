@@ -17,6 +17,10 @@ APIView parameter ব্যবহার করে list=get(), create=post(), upd
 
 <br>
 
+[github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO/tree/classBaseView)
+
+<br>
+
 একটি demo DataBase table :
 
 ### models.py

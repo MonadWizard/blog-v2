@@ -33,6 +33,10 @@ generic makes more easyer code structures for principals. 😏
 
 <br>
 
+[github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO/tree/0.4_Generic_Views)
+
+<br>
+
 একটি demo DataBase table same as funcrion and classbase:
 
 ### models.py

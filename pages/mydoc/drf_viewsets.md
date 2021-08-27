@@ -39,6 +39,10 @@ views.py configure as:
 
 <br>
 
+[github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO/tree/0.5_view_sets)
+
+<br>
+
 একটি demo DataBase table same as funcrion and classbase:
 
 ### models.py

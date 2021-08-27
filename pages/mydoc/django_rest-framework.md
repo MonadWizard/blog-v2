@@ -9,13 +9,17 @@ permalink: django_rest-framework.html
 folder: mydoc
 ---
 
-## Demo code 
+## Demo code
 
 django REST framework এর function-base বা class-base, সব ধরনের view নিয়ে একটা গিট repo তৈরি করছি।
 
 এই post এ django-rest-framework নিয়ে আলোচনা করা হবে, তবে আপনারা চাইলে github থেকে code-structure টির help নিতে পারেন।
 
+<br>
+
 [github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO)
+
+<br>
 
 ## drf-cheat-sheet
 

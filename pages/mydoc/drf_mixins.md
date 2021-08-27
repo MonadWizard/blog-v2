@@ -9,7 +9,6 @@ permalink: drf_mixins.html
 folder: mydoc
 ---
 
-
 basic intro workflow এই section এর 1st post এ দেওয়া হয়েছে ।
 
 ## Mixins CLass base views
@@ -35,6 +34,10 @@ Mixins provided us
 | destroy()      | DestroyModelMixin  | delete()        |
 
 যে রকম Acrion Method এর out-come প্রয়োজন সেই রকম mixins class কে parameter হিসেবে define করতে হবে এবং Handler Method কে call করলেই DRF বাকি সব execution নিজেই করে নিবে।
+
+<br>
+
+[github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO/tree/0.3_mixins)
 
 <br>
 
@@ -137,6 +140,3 @@ urlpatterns = [
 ]
 
 ```
-
-
-

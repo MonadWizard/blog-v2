@@ -9,7 +9,6 @@ permalink: drf_fbv.html
 folder: mydoc
 ---
 
-
 আমি মনে করতেছি আপনারা django-rest-framework সম্পর্কে অনেকটা জানেন,
 আমি just কিছু coding structure দেখাব, যেন প্রয়োজনে code এর structure নিয়ে কাজ করতে সুবিধা হয়।
 
@@ -24,6 +23,10 @@ folder: mydoc
 -   models.py + serializers.py + views.py + urls.py (in app directory)
 
 এই post এ আমরা just coding demo দেখব। সব code এর পরিবর্তন app dir তে হয়েছে ।
+
+<br>
+
+[github link](https://github.com/MonadWizard/Django_rest-framework_Views_DEMO/tree/functionBaseView)
 
 <br>
 
