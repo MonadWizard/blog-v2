@@ -1,46 +1,42 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
-- title: Topnav
-  items:
-    # - title: GitHub
-    #   external_url: https://github.com/MonadWizard
-    - title: helpful links 
-      url: /news
+    - title: Topnav
+      items:
+          # - title: GitHub
+          #   external_url: https://github.com/MonadWizard
+          - title: helpful links
+            url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: practice
-      folderitems:
-        - title: Python Q/A
-          url: /pyQ1.html
+    - title: Topnav dropdowns
+      folders:
+          - title: practice
+            folderitems:
+                - title: Python Q/A
+                  url: /pyQ1.html
 
-        - title: JavaScript Q/A
-          url: /jsQ50.html
+                - title: JavaScript Q/A
+                  url: /jsQ50.html
 
+          - title: Contract
+            folderitems:
+                - title: GitHub
+                  external_url: https://github.com/MonadWizard
+                - title: Facebook
+                  external_url: https://www.facebook.com/ccaarreelleess
+                - title: Linked In
+                  external_url: https://www.linkedin.com/in/rakib-hasan-90518b140/
+                - title: Twitter
+                  external_url: https://twitter.com/MonadWizard
+                - title: Hacker Rank
+                  external_url: https://www.hackerrank.com/monad_wizard_r
 
-    - title: Contract
-      folderitems:
-        - title: GitHub
-          external_url: https://github.com/MonadWizard
-        - title: Facebook
-          external_url: https://www.facebook.com/ccaarreelleess
-        - title: Linked In
-          external_url: https://www.linkedin.com/in/rakib-hasan-90518b140/
-        - title: Twitter
-          external_url: https://twitter.com/MonadWizard
-        - title: Hacker Rank
-          external_url: https://www.hackerrank.com/monad_wizard_r    
+          - title: Others
+            folderitems:
+                - title: My Resume
+                  external_url: https://monadwizard.github.io/ubuntu_resume/
 
-    - title: Others
-      folderitems:
-        - title: My Resume
-          external_url: https://monadwizard.github.io/online_resume.github.io/
-
-        - title: Demo projects
-          url: /p2_landing_page.html
-
-
-  
+                - title: Demo projects
+                  url: /p2_landing_page.html
