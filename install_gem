@@ -1,0 +1,5 @@
+open terminal then run command 
+    sudo apt install ruby-full git
+
+afet run 
+    sudo gem install bundler
