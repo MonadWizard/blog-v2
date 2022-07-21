@@ -3,6 +3,9 @@
 # bundle update
 bundler update
 
+# need to add webrick to the Gemfile
+bundle add webrick
+
 # bundle exec jekyll serve
 bundler exec jekyll serve
 

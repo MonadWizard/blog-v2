@@ -7,3 +7,5 @@ gem 'github-pages', group: :jekyll_plugins
 #gem "jekyll"
 
 gem "jekyll", "~> 3.8"
+
+gem "webrick", "~> 1.7"

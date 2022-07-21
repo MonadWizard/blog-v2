@@ -154,6 +154,10 @@ entries:
                   url: /postgreSQL_cheetsheet.html
                   output: web, pdf
 
+                - title: pg_cron পুঁথি (Terminal)
+                  url: /pg_cron.html
+                  output: web, pdf
+
                 - title: mySQL পুঁথি (Terminal)
                   url: /mySQL_cheetsheet.html
                   output: web, pdf
