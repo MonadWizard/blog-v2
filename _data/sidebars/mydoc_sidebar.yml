@@ -194,3 +194,10 @@ entries:
                 - title: RegEx পুঁথি
                   url: /regex_cheatsheet.html
                   output: web, pdf
+
+          - title: Server
+            output: web, pdf
+            folderitems:
+                - title: gunicorn,daphne,nginx django deploy পুঁথি
+                  url: /gunicorn,daphne,nginx_django.html
+                  output: web, pdf
