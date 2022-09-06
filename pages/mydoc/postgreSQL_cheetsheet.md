@@ -59,6 +59,12 @@ sudo -u postgres createuser <username>
 alter user <username> with encrypted password '<password>';
 ```
 
+#### create user from postgres CLI with password
+
+```
+    CREATE ROLE <username> LOGIN PASSWORD '<password>' NOINHERIT CREATEDB;
+```
+
 #### Granting privileges on a database
 
 ```
