@@ -10,7 +10,7 @@ gem "jekyll", "~> 3.8"
 
 gem "webrick", "~> 1.7"
 
-gem "commonmarker", "~> 0.23.5"
+gem "commonmarker", "~> 0.23.7"
 
 gem "eventmachine", "~> 1.2"
 
